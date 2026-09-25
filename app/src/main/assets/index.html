@@ -1,0 +1,2685 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kashkool — Lessons, Homework and Weekly Schedule</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAADTklEQVR4nO3dMW4USQBAUUB7Ak4AySARgkggWGdE5L4AF+EaXIB8I7IlILLY0BIkvgqBJWStVtrBf6q7uue9aKKelvtPVY3kqnn45PD6AdzXo7VvgG0TEImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCR/LPM2N9efl3mjHfjx6dXQ67/98PiEVxs+At1cf1bPbzlcXq19C79hYEDSubcNNTQqIOmciYXWQPfz159vbl+8+/J13TtZ3uHyavRi6CSGjECGn5PYxETma/zU5m/o9AEZfk5r8oaMQCQC2oCZByEBbcO0DQloM+ZsSEAkAtqSCQchAW3MbA0JaHumakhAmzRPQwIiEdBWTTIICWjDZmhIQNu2ekMC2rzD5dWKGQloJ9ZqSED7sUpDAtqV5aczAe3Qkg0JaJ8Wa0hAu7XMdCagnRvdkID2b2hDAjoL46YzAZ2REQ0J6LycvCEBkQiI5NjjXb79/fH2xcuL98Nuhu05agT6Vc+/XoMpjERAJEcFdHfdYw3EXccuonXDfzKFkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRTP2rzUf6/s+5/8jmsxdv13rrPQS04p8PUxiJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImT6kmcVE9iCiPZwz/V25Ux+66MlxfvZ14D2ZWxIifVk1gDkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEgERCIgEgGRCIhEQCR2ZezB7LsyJmdXxopMYSQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZE4qZ7ESfUkpjASAZEcFdDddY81EHft4aR6uzLsykjsyliRNRCJgEgERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiIREImASAREIiASAZEIiERAJAIiERCJgEhOH9DT5zYaz+vkT8cIRDIkIIPQnEY8l6lP53j35evat8D/GDWFGYRmM+iJPHxyeD3iur/cXJ/76U+rG/phHh7QLRmtYoF5YKGA2Ctf40kERCIgEgGRCIhEQCQCIhEQiYBIBEQiIBIBkQiIREAkAiL5CUA5gOWHbLIJAAAAAElFTkSuQmCC" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAADK0lEQVR4nO3dPW4TQQCAUUCcgBNAYyRKEA0U0FHR5wJchGtwAXoqOiioIigjQZOrUCChiPBhi+zPrP1etdXacr7MzErj8e37u2e34G/urP0GGJc4SOIgiYMkDpI4SOIgiYMkDpI4SOIgiYMkDpI4SOIg3Z317pcXH2e9/6b9eP90pju/entvkvvMNXJcXnxUxr/tzs7Xfgt7zBKHLA40eB/Tx6GMozHxmuPmZXx48fzXxevPX278djZgd3Y+3+LjhjytrG/YyWXKOEwo/23MPowcoxiwD3EMZLQ+xEESx1iGGjzEMZxx+hDHiAbpQxyDGqEPcYxr9T7EQRLH0NYdPMQxuhX7EMcGrNWHOLZhd3a+fCLi2JKF+xDHxizZhzi2Z7E+xLFJyyxBxLFhc/chjm2btQ9xbN58fYjjGMy0BBHH8Zi8D3EclWn7EMexmbCPQ78O+fXTu18XT16+meq1GdxBI8fvMv645rjtj+N6Dfo4EdYcJHGQ9sdxfQVqTXoiDho5rtagjNNx6KOsJk6QNQdJHCRxkMRBEgdJHCRxkMRBEgdJHCRxkMRBEgdJHCRxkOb9dcj5fP92cr/t8vDxq4VfcatxLP9JnSDTCkkcJHGQxEESB0kcJHGQxEESB0kcJHGQxEESB0kcJHGQnENKcg4pyTmkJGsO0lb3kNpgvID9cTx5+eaPeWSENakNxgtwDinJOaQkC1KSOEjiIImDJA6SOEjiIImDJA6SOEjiIImDJA6SOEjiIImDJA6SDcabMeIG4zHZYLwA0wpJHCRxkMRBEgdJHCRxkMRBEgdJHCRxkMRBEgfJOaQk55CSnENKsuYgiYO0P47rK1Br0hNx0NPK1XNqBynDBuMFbPUcUhuMF2DNQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZDEQRIHSRwkcZCmjOPBI180Wt+EfwUjB+n2/d2zae94eXFy32Idx7SD9/Qjh8llLZN/8rNMK/pY3hyf+fTTylWmmAXM9684bxxsmqcVkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhIPwH27o4gFEhUcQAAAABJRU5ErkJggg==">
+<meta name="theme-color" content="#20263A">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kashkool">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EDE6D5;
+  --sheet:#FFFCF3;
+  --grid:#DCD1B4;
+  --ink:#20263A;
+  --ink-soft:#4A5470;
+  --ink-faint:#54687C;
+  --margin:#B23B2E;
+  --mark:#D9A428;
+  --mark-bg:#F7ECC8;
+  --line:#CDBF9C;
+  --line-soft:#EAE1C9;
+  --hover:#F2EBD8;
+  --ok:#2F7D5C;
+  --field:#FFFFFF;
+  --shadow:0 1px 1px rgba(58,42,18,.06), 0 12px 26px -18px rgba(58,42,18,.5);
+  --vignette:radial-gradient(ellipse at 18% -10%, rgba(255,255,255,.6), transparent 55%);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F151E;
+    --sheet:#151D27;
+    --grid:#1B2530;
+    --ink:#E7EDF3;
+    --ink-soft:#A9B8C7;
+    --ink-faint:#6F8195;
+    --margin:#D4675A;
+    --mark:#D7AE4A;
+    --mark-bg:#3A3117;
+    --line:#273544;
+    --line-soft:#1E2833;
+    --hover:#1B2531;
+    --ok:#56AE8E;
+    --field:#111A24;
+    --shadow:none;
+    --vignette:none;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F151E;
+  --sheet:#151D27;
+  --grid:#1B2530;
+  --ink:#E7EDF3;
+  --ink-soft:#A9B8C7;
+  --ink-faint:#6F8195;
+  --margin:#D4675A;
+  --mark:#D7AE4A;
+  --mark-bg:#3A3117;
+  --line:#273544;
+  --line-soft:#1E2833;
+  --hover:#1B2531;
+  --ok:#56AE8E;
+  --field:#111A24;
+  --shadow:none;
+  --vignette:none;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background-color:var(--paper);
+  background-image:
+    var(--vignette),
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:auto, 29px 29px, 29px 29px;
+  background-position:center top;
+  background-repeat:no-repeat, repeat, repeat;
+  color:var(--ink);
+  font-family:"IBM Plex Sans Arabic","Segoe UI",Tahoma,system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.7;
+  -webkit-text-size-adjust:100%;
+}
+.panel{
+  border:1px solid var(--line);border-radius:3px;overflow:hidden;
+  background:var(--sheet);box-shadow:var(--shadow);
+}
+.panel > :last-child{border-bottom:0}
+h1,h2,h3{font-family:"Amiri","Times New Roman",serif;font-weight:700;line-height:1.25;margin:0}
+button,input,select,textarea{font-family:inherit;font-size:1rem;color:inherit}
+a{color:inherit}
+
+.wrap{max-width:1060px;margin-inline:auto;padding:0 16px 110px}
+
+/* ---------- masthead ---------- */
+.masthead{
+  display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+  padding:24px 0 14px;
+}
+.brand{font-size:1.6rem;letter-spacing:.01em}
+.brand small{
+  display:block;font-family:"IBM Plex Sans Arabic",sans-serif;font-size:.78rem;
+  font-weight:400;color:var(--ink-faint);letter-spacing:.02em;line-height:1.2;margin-top:2px;
+}
+.mastActions{display:flex;align-items:center;gap:8px}
+.iconbtn{
+  background:transparent;border:1px solid var(--line);border-radius:999px;
+  width:32px;height:32px;line-height:1;cursor:pointer;font-size:1rem;
+  display:flex;align-items:center;justify-content:center;color:var(--ink-soft);
+}
+.iconbtn:hover{border-color:var(--ink-faint);color:var(--ink)}
+.ghost{
+  background:transparent;border:1px solid var(--line);border-radius:999px;
+  padding:6px 13px;cursor:pointer;color:var(--ink-soft);font-size:.83rem;
+}
+.ghost:hover{border-color:var(--ink-faint);color:var(--ink)}
+
+/* ---------- tabs ---------- */
+nav.tabs{
+  display:flex;gap:2px;flex-wrap:wrap;align-items:flex-end;
+  position:sticky;top:0;z-index:20;
+  margin:0 -16px 24px;padding:9px 16px 0;
+  background:var(--paper);border-bottom:1px solid var(--line);
+}
+.tab{
+  background:transparent;border:0;border-bottom:2px solid transparent;
+  padding:7px 12px 7px;cursor:pointer;color:var(--ink-soft);font-weight:500;font-size:.95rem;
+  margin-bottom:-1px;
+}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--mark);font-weight:600}
+.tab .count{
+  font-size:.72rem;color:var(--ink-faint);margin-inline-start:5px;
+  font-variant-numeric:tabular-nums;
+}
+
+main{position:relative}
+@media (min-width:1000px){
+  main::before{
+    content:"";position:absolute;inset-block:-6px;left:-20px;
+    width:1px;background:var(--margin);opacity:.5;
+  }
+}
+.view[hidden]{display:none}
+
+/* ---------- today hero ---------- */
+.hero{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.hero h2{font-size:clamp(2.3rem,8vw,3.4rem);letter-spacing:-.01em}
+.hero .stamp{color:var(--ink-soft);font-size:.95rem;font-variant-numeric:tabular-nums}
+.hero .stamp.muted{color:var(--ink-faint);font-size:.85rem}
+.hero .pulse{
+  font-size:.85rem;color:var(--ink-soft);background:var(--mark-bg);
+  border:1px solid var(--mark);border-radius:3px;padding:7px 12px;
+  display:flex;align-items:baseline;gap:8px;
+}
+.pulseClock{
+  font-family:"IBM Plex Sans Arabic",sans-serif;font-variant-numeric:tabular-nums;
+  font-weight:700;font-size:1rem;color:var(--margin);letter-spacing:.02em;
+}
+
+/* ---------- exam hero ---------- */
+.examHero{
+  background:var(--sheet);border:1px solid var(--line);border-inline-start:4px solid var(--margin);
+  border-radius:3px;box-shadow:var(--shadow);padding:16px 18px;margin-bottom:20px;
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;
+}
+.examHero__label{font-size:.82rem;color:var(--ink-faint);flex:0 0 100%}
+.examHero__title{font-family:"Amiri",serif;font-size:1.35rem;font-weight:700}
+.examHero__clock{
+  margin-inline-start:auto;font-variant-numeric:tabular-nums;font-weight:700;
+  font-size:1.3rem;color:var(--margin);letter-spacing:.02em;
+}
+
+.cols{display:grid;grid-template-columns:1fr;gap:26px}
+@media (min-width:860px){ .cols{grid-template-columns:1.45fr 1fr;gap:34px} }
+
+.block{margin-bottom:28px}
+.block__head{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding-bottom:7px;margin-bottom:12px;border-bottom:1px solid var(--line);
+}
+.block__head h3{font-size:1.15rem}
+.block__head .hint{font-size:.8rem;color:var(--ink-faint);font-weight:400;font-family:"IBM Plex Sans Arabic",sans-serif}
+
+.add{
+  background:var(--sheet);border:1px solid var(--line);border-radius:3px;
+  padding:5px 12px;cursor:pointer;font-size:.85rem;color:var(--ink-soft);
+}
+.add:hover{border-color:var(--margin);color:var(--margin)}
+
+/* ---------- entry rows ---------- */
+.rows{list-style:none;margin:0;padding:0}
+.row{
+  display:grid;grid-template-columns:minmax(82px,96px) 4px minmax(0,1fr) auto;align-items:center;gap:12px;
+  padding:11px 10px 11px 6px;border-bottom:1px solid var(--line-soft);
+  background:var(--sheet);
+}
+.row:hover{background:var(--hover)}
+.row .what{
+  background:transparent;border:0;padding:0;font:inherit;color:inherit;
+  text-align:start;cursor:pointer;
+}
+.row .what:focus-visible{outline:2px solid var(--margin);outline-offset:3px}
+.tail{display:flex;flex-direction:column;align-items:flex-end;gap:6px;align-self:center;min-width:92px}
+.linkbtn{
+  display:inline-flex;align-items:center;gap:5px;max-width:100%;font-size:.76rem;text-decoration:none;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--ink-soft);
+  background:var(--paper);
+}
+.linkbtn::after{content:"↗";font-size:.85rem;line-height:1}
+.linkbtn:hover{border-color:var(--margin);color:var(--margin);background:var(--sheet)}
+.row .when{
+  display:flex;flex-direction:column;justify-content:center;text-align:center;
+  font-size:.9rem;color:var(--ink-soft);font-variant-numeric:tabular-nums;
+  white-space:nowrap;line-height:1.3;font-weight:600;letter-spacing:.01em;
+}
+.row .bar{align-self:stretch;border-radius:2px;background:var(--ink-faint);min-height:22px}
+.row .what{min-width:0}
+.row .what strong{font-weight:600;font-size:1rem;display:block}
+.row .what span{display:block;font-size:.82rem;color:var(--ink-faint)}
+.row .flag{font-size:.75rem;color:var(--ink-faint);white-space:nowrap;padding-top:4px}
+.row.is-now{background:var(--mark-bg);box-shadow:inset -3px 0 0 var(--mark)}
+.row.is-now .flag{color:var(--margin);font-weight:600}
+.row.is-past{opacity:.48}
+
+/* ---------- homework ---------- */
+.hw{
+  display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start;
+  padding:10px 8px;border-bottom:1px solid var(--line-soft);background:var(--sheet);
+}
+.tick{
+  appearance:none;-webkit-appearance:none;width:19px;height:19px;margin:4px 0 0;
+  border:1.5px solid var(--ink-faint);border-radius:50%;cursor:pointer;background:transparent;flex:none;
+}
+.tick:hover{border-color:var(--ok)}
+.tick:checked{background:var(--ok);border-color:var(--ok);box-shadow:inset 0 0 0 3px var(--sheet)}
+.tick:focus-visible{outline:2px solid var(--margin);outline-offset:2px}
+.hw__body{background:transparent;border:0;padding:0;text-align:start;cursor:pointer;font:inherit;color:inherit;min-width:0}
+.hw__body strong{display:block;font-weight:600;font-size:1rem}
+.hw__body span{display:block;font-size:.82rem;color:var(--ink-faint)}
+.hw.done .hw__body strong{text-decoration:line-through;color:var(--ink-faint);font-weight:400}
+.due{font-size:.78rem;white-space:nowrap;padding-top:4px;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.due.late{color:var(--margin);font-weight:600}
+.due.now{color:var(--margin);font-weight:600}
+.due.soon{color:var(--ink-soft);font-weight:500}
+.group-title{
+  font-size:.82rem;color:var(--ink-faint);margin:18px 0 6px;font-weight:500;
+}
+.group-title:first-child{margin-top:0}
+
+.chip{
+  display:inline-block;font-size:.74rem;padding:1px 7px;border-radius:2px;
+  border:1px solid currentColor;opacity:.9;margin-inline-end:6px;vertical-align:1px;
+}
+
+/* ---------- week grid ---------- */
+.week{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line-soft);border:1px solid var(--line);border-radius:3px;overflow:hidden;box-shadow:var(--shadow)}
+@media (min-width:880px){ .week{grid-template-columns:repeat(7,1fr)} }
+.day{background:var(--sheet);min-height:70px;padding:8px}
+.day__head{
+  display:flex;align-items:baseline;justify-content:space-between;gap:6px;
+  padding-bottom:6px;margin-bottom:6px;border-bottom:1px solid var(--line-soft);
+}
+.day__head b{font-family:"Amiri",serif;font-size:1.05rem;font-weight:700}
+.day__head em{font-style:normal;font-size:.72rem;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.day.today{box-shadow:inset 0 3px 0 var(--mark)}
+.day.today .day__head b{color:var(--margin)}
+.slot{
+  border-inline-start:3px solid var(--ink-faint);padding:4px 8px;margin-bottom:5px;
+  border-radius:0 2px 2px 0;
+}
+.slot:hover{background:var(--hover)}
+.slot__main{
+  display:block;width:100%;text-align:start;background:transparent;border:0;padding:0;
+  cursor:pointer;font:inherit;color:inherit;
+}
+.slot__main:focus-visible{outline:2px solid var(--margin);outline-offset:2px}
+.slot b{display:block;font-size:.9rem;font-weight:600;line-height:1.35}
+.slot i{display:block;font-style:normal;font-size:.74rem;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.slot .linkbtn{margin-top:4px}
+.day__add{
+  background:transparent;border:1px dashed var(--line);width:100%;border-radius:2px;
+  color:var(--ink-faint);cursor:pointer;font-size:.78rem;padding:3px;
+}
+.day__add:hover{border-color:var(--margin);color:var(--margin)}
+
+/* ---------- subject filter ---------- */
+.filter{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px;align-items:center}
+.filter .lbl{font-size:.78rem;color:var(--ink-faint);margin-inline-end:2px}
+.fchip{
+  border:1px solid var(--line);background:var(--sheet);border-radius:999px;
+  padding:3px 12px;font-size:.82rem;color:var(--ink-soft);cursor:pointer;
+}
+.fchip:hover{border-color:var(--ink-faint);color:var(--ink)}
+.fchip[aria-pressed="true"]{border-color:currentColor;background:var(--mark-bg);font-weight:600}
+
+/* ---------- links ---------- */
+.links{display:grid;gap:1px;background:var(--line-soft);border:1px solid var(--line);border-radius:3px;overflow:hidden;box-shadow:var(--shadow)}
+.linkitem{
+  background:var(--sheet);display:grid;grid-template-columns:5px 1fr auto;gap:11px;
+  align-items:start;padding:11px 12px;
+}
+.linkitem .swatch{align-self:stretch;min-height:30px;border-radius:2px}
+.linkitem__body{background:transparent;border:0;padding:0;text-align:start;cursor:pointer;font:inherit;color:inherit;min-width:0}
+.linkitem__body strong{display:block;font-weight:600}
+.linkitem__body span{display:block;font-size:.78rem;color:var(--ink-faint);overflow-wrap:anywhere}
+.linkitem .tail{align-self:center}
+.mini{margin-top:7px;font-size:.84rem}
+
+/* ---------- notes ---------- */
+.notes{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1px;
+  background:var(--line-soft);border:1px solid var(--line);border-radius:3px;overflow:hidden;box-shadow:var(--shadow);
+}
+.notecard{
+  background:var(--sheet);border:0;padding:13px 14px;cursor:pointer;text-align:start;font:inherit;color:inherit;
+  display:flex;flex-direction:column;gap:6px;min-height:118px;
+}
+.notecard:hover{background:var(--hover)}
+.notecard .bar{width:26px;height:3px;border-radius:2px;background:var(--ink-faint)}
+.notecard strong{font-weight:600;font-size:.98rem}
+.notecard p{
+  margin:0;font-size:.84rem;color:var(--ink-soft);line-height:1.55;white-space:pre-wrap;
+  display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;flex:1;
+}
+.notecard .meta{font-size:.74rem;color:var(--ink-faint);margin-top:auto}
+
+/* ---------- subjects ---------- */
+.subs{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1px;background:var(--line-soft);border:1px solid var(--line);border-radius:3px;overflow:hidden;box-shadow:var(--shadow)}
+.sub{
+  background:var(--sheet);border:0;padding:12px;cursor:pointer;text-align:start;font:inherit;color:inherit;
+  display:grid;grid-template-columns:5px 1fr;gap:10px;align-items:start;
+}
+.sub:hover{background:var(--hover)}
+.sub .swatch{align-self:stretch;min-height:34px;border-radius:2px}
+.sub b{display:block;font-weight:600}
+.sub span{display:block;font-size:.8rem;color:var(--ink-faint)}
+
+/* ---------- empty ---------- */
+.empty{
+  border:1px dashed var(--line);border-radius:3px;background:var(--sheet);padding:24px;text-align:center;
+  color:var(--ink-faint);font-size:.92rem;line-height:1.8;
+}
+.empty button{margin-top:10px}
+
+/* ---------- exam rows ---------- */
+.exrow{
+  display:grid;grid-template-columns:4px 1fr auto;align-items:start;gap:12px;
+  padding:11px 10px;border-bottom:1px solid var(--line-soft);background:var(--sheet);
+  width:100%;text-align:start;border:0;font:inherit;color:inherit;cursor:pointer;
+}
+.exrow:hover{background:var(--hover)}
+.exrow .bar{align-self:stretch;border-radius:2px;background:var(--ink-faint);min-height:26px}
+.exrow strong{display:block;font-weight:600}
+.exrow span.meta{display:block;font-size:.8rem;color:var(--ink-faint)}
+.exrow .due{font-size:.8rem;white-space:nowrap;padding-top:2px;color:var(--ink-soft)}
+.exrow .due.late{color:var(--margin);font-weight:600}
+.exrow .due.now{color:var(--margin);font-weight:600}
+.exrow .due.soon{color:var(--ink-soft);font-weight:500}
+
+/* ---------- search ---------- */
+#dlgSearch{width:min(520px,calc(100vw - 28px))}
+#dlgSearch .dlg__body{padding-top:14px}
+#searchResults{margin-top:12px;max-height:52vh;overflow-y:auto}
+#dlgSearch #searchResults{max-height:none;overflow:visible}
+.sresult{
+  display:flex;align-items:center;gap:10px;padding:9px 8px;border-bottom:1px solid var(--line-soft);
+  background:transparent;width:100%;text-align:start;cursor:pointer;font:inherit;color:inherit;border-inline:0;border-top:0;
+}
+.sresult:hover{background:var(--hover)}
+.sresult .tag{
+  font-size:.7rem;color:var(--ink-faint);border:1px solid var(--line);border-radius:999px;
+  padding:1px 8px;flex:none;
+}
+.sresult b{font-weight:600;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sresult .x{font-size:.78rem;color:var(--ink-faint);flex:none;white-space:nowrap}
+
+/* ---------- progress charts ---------- */
+.statsGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.statCard{background:var(--sheet);border:1px solid var(--line);border-radius:var(--radius-md);padding:18px;box-shadow:var(--shadow)}
+.statCard.wide{grid-column:1/-1}
+.statCard h4{margin:0 0 4px;font-family:"Amiri",serif;font-size:1.08rem}
+.statSub{font-size:.78rem;color:var(--ink-faint);margin-bottom:14px}
+.metricRow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.metric{background:var(--paper);border:1px solid var(--line-soft);border-radius:var(--radius-sm);padding:12px;text-align:center}
+.metric b{display:block;font-size:1.35rem;font-variant-numeric:tabular-nums;color:var(--margin)}
+.metric span{font-size:.75rem;color:var(--ink-faint)}
+.chartCanvas{display:block;width:100%;height:230px}
+.donutWrap{display:flex;align-items:center;justify-content:center;gap:22px;min-height:220px;flex-wrap:wrap}
+.donut{width:154px;height:154px;border-radius:50%;position:relative;background:conic-gradient(var(--ok) 0%,var(--line-soft) 0)}
+.donut::after{content:"";position:absolute;inset:25px;border-radius:50%;background:var(--sheet)}
+.donutLabel{position:absolute;inset:0;display:grid;place-content:center;text-align:center;z-index:1;font-weight:700;font-size:1.35rem}
+.donutLabel small{display:block;font-size:.72rem;color:var(--ink-faint);font-weight:400}
+.legend{display:grid;gap:8px;font-size:.82rem;color:var(--ink-soft)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--ok);margin-inline-end:7px}
+.legend span:last-child::before{background:var(--line-soft);border:1px solid var(--line)}
+.subjectBars{display:grid;gap:11px}
+.subjectBar{display:grid;grid-template-columns:minmax(80px,130px) 1fr auto;gap:10px;align-items:center;font-size:.8rem}
+.subjectBar i{height:10px;background:var(--line-soft);border-radius:999px;overflow:hidden}
+.subjectBar i b{display:block;height:100%;border-radius:inherit}
+.subjectBar em{font-style:normal;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+@media(max-width:700px){.statsGrid{grid-template-columns:1fr}.statCard.wide{grid-column:auto}.metricRow{grid-template-columns:1fr}.chartCanvas{height:200px}}
+
+/* ---------- pomodoro ---------- */
+.pomo{
+  max-width:360px;margin:0 auto;text-align:center;background:var(--sheet);
+  border:1px solid var(--line);border-radius:3px;box-shadow:var(--shadow);padding:28px 20px 22px;
+}
+.pomo__mode{font-size:.9rem;color:var(--ink-soft);font-weight:600;letter-spacing:.02em}
+.pomo__clock{
+  font-family:"IBM Plex Sans Arabic",sans-serif;font-variant-numeric:tabular-nums;
+  font-size:clamp(3rem,16vw,4rem);font-weight:700;line-height:1.1;margin:8px 0 2px;color:var(--ink);
+}
+.pomo__round{font-size:.82rem;color:var(--ink-faint);margin-bottom:18px}
+.pomo__controls{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+.pomo__settings{text-align:start;border-top:1px solid var(--line-soft);padding-top:12px}
+.pomo__settings summary{cursor:pointer;font-size:.85rem;color:var(--ink-soft);margin-bottom:10px}
+.pomo__settings .pair{margin-bottom:10px}
+.pomo__settings .add{margin-top:2px}
+.pomo.mode-break .pomo__clock{color:var(--ok)}
+.pomo.mode-long .pomo__clock{color:var(--margin)}
+
+/* ---------- dialog ---------- */
+dialog{
+  border:1px solid var(--line);border-radius:5px;background:var(--sheet);color:var(--ink);
+  padding:0;width:min(450px,calc(100vw - 28px));box-shadow:0 24px 60px -20px rgba(12,22,38,.55);
+}
+dialog::backdrop{background:rgba(9,16,25,.55)}
+.dlg__head{padding:16px 18px 10px;border-bottom:1px solid var(--line-soft)}
+.dlg__head h3{font-size:1.2rem}
+.dlg__body{padding:14px 18px;display:grid;gap:12px}
+.dlg__foot{
+  padding:12px 18px 16px;display:flex;gap:8px;align-items:center;
+  border-top:1px solid var(--line-soft);
+}
+.dlg__foot .spacer{flex:1}
+label{display:block;font-size:.8rem;color:var(--ink-soft);margin-bottom:4px}
+input[type=text],input[type=time],input[type=date],input[type=url],input[type=number],input[type=search],select,textarea{
+  width:100%;background:var(--field);border:1px solid var(--line);border-radius:3px;
+  padding:8px 10px;color:var(--ink);
+}
+input[type=url],input[type=number]{
+  font-variant-numeric:tabular-nums;letter-spacing:.015em;
+}
+input[type=url]::placeholder,input[type=number]::placeholder{color:var(--ink-faint);opacity:1}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--mark);outline-offset:-1px;border-color:var(--mark)}
+input[type=url]:focus,input[type=number]:focus{
+  background:var(--sheet);box-shadow:0 0 0 3px rgba(217,164,40,.18);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) input[type=url],
+  :root:not([data-theme="light"]) input[type=number]{
+    background:#0B1420;border-color:#536A83;color:#F4F7FB;color-scheme:dark;
+  }
+  :root:not([data-theme="light"]) input[type=url]:focus,
+  :root:not([data-theme="light"]) input[type=number]:focus{
+    background:#111E2D;border-color:#D9A428;box-shadow:0 0 0 3px rgba(217,164,40,.28);
+  }
+}
+:root[data-theme="dark"] input[type=url],
+:root[data-theme="dark"] input[type=number]{
+  background:#0B1420;border-color:#536A83;color:#F4F7FB;color-scheme:dark;
+}
+:root[data-theme="dark"] input[type=url]:focus,
+:root[data-theme="dark"] input[type=number]:focus{
+  background:#111E2D;border-color:#D9A428;box-shadow:0 0 0 3px rgba(217,164,40,.28);
+}
+textarea{resize:vertical;min-height:62px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.checkline{
+  display:flex;align-items:center;gap:8px;font-size:.88rem;color:var(--ink-soft);
+  cursor:pointer;margin-bottom:0;
+}
+.checkline input{width:16px;height:16px;accent-color:var(--margin);cursor:pointer;flex:none}
+.daypick{display:flex;gap:5px;flex-wrap:wrap}
+.daypick button{
+  border:1px solid var(--line);background:var(--field);border-radius:999px;
+  padding:4px 12px;font-size:.85rem;color:var(--ink-soft);cursor:pointer;
+}
+.daypick button:hover{border-color:var(--ink-faint);color:var(--ink)}
+.daypick button[aria-pressed="true"]{
+  background:var(--ink);border-color:var(--ink);color:var(--sheet);font-weight:600;
+}
+.hint-inline{color:var(--ink-faint);font-weight:400}
+.swatches{display:flex;gap:7px;flex-wrap:wrap}
+.swatches button{
+  width:26px;height:26px;border-radius:50%;border:2px solid transparent;cursor:pointer;padding:0;
+}
+.swatches button[aria-pressed="true"]{border-color:var(--ink);transform:scale(1.12)}
+.primary{
+  background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:3px;
+  padding:8px 18px;cursor:pointer;font-weight:600;font-size:.92rem;
+}
+.primary:hover{background:var(--margin);border-color:var(--margin);color:#fff}
+.danger{
+  background:transparent;border:1px solid var(--line);border-radius:3px;
+  padding:8px 14px;cursor:pointer;color:var(--margin);font-size:.88rem;
+}
+.danger:hover{border-color:var(--margin)}
+
+/* ---------- misc ---------- */
+.notice{
+  border:1px solid var(--line);border-inline-start:3px solid var(--mark);background:var(--sheet);
+  padding:9px 12px;font-size:.83rem;color:var(--ink-soft);margin-bottom:16px;
+}
+.notice{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.notice .add{flex:none}
+.toast{
+  position:fixed;inset-block-end:18px;inset-inline-start:50%;transform:translateX(50%);
+  background:var(--ink);color:var(--paper);padding:9px 16px;border-radius:3px;font-size:.88rem;
+  z-index:50;
+}
+.skeleton{color:var(--ink-faint);font-size:.9rem;padding:14px 0}
+:focus-visible{outline:2px solid var(--margin);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ---------- interface polish ---------- */
+:root{
+  --radius-sm:8px;
+  --radius-md:12px;
+  --radius-lg:16px;
+}
+body{
+  background-image:var(--vignette);
+}
+.wrap{max-width:1160px;padding-inline:20px}
+.masthead{padding:30px 0 18px;align-items:center}
+.brand{letter-spacing:-.015em}
+.brand small{opacity:.9}
+.mastActions{gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.iconbtn,.ghost,.add,.primary,.danger{transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease,box-shadow .18s ease}
+.iconbtn:hover,.ghost:hover,.add:hover{transform:translateY(-1px);box-shadow:0 4px 12px -8px rgba(32,38,58,.65)}
+.ghost,.add{background:color-mix(in srgb,var(--sheet) 82%,transparent);border-radius:var(--radius-sm)}
+.ghost{padding:7px 13px}
+.add{padding:7px 13px}
+nav.tabs{
+  top:10px;margin:0 -4px 28px;padding:7px;
+  gap:5px;align-items:center;background:color-mix(in srgb,var(--paper) 88%,transparent);
+  border:1px solid var(--line);border-radius:var(--radius-md);
+  box-shadow:0 8px 24px -20px rgba(32,38,58,.8);
+  backdrop-filter:blur(12px);
+}
+.tab{
+  border:0;border-radius:var(--radius-sm);padding:8px 14px;margin:0;
+  color:var(--ink-soft);font-size:.9rem;transition:background .18s ease,color .18s ease,transform .18s ease;
+}
+.tab:hover{background:var(--hover);color:var(--ink);transform:translateY(-1px)}
+.tab[aria-selected="true"]{
+  background:var(--ink);border:0;color:var(--paper);
+  box-shadow:0 5px 14px -9px rgba(32,38,58,.9);
+}
+.tab[aria-selected="true"] .count{color:var(--mark)}
+.hero{
+  background:color-mix(in srgb,var(--sheet) 88%,transparent);
+  border:1px solid var(--line);border-radius:var(--radius-lg);
+  padding:20px 22px;margin-bottom:24px;
+  box-shadow:var(--shadow);
+}
+.hero h2{letter-spacing:-.025em}
+.hero .pulse{border-radius:var(--radius-sm);box-shadow:0 5px 16px -12px rgba(217,164,40,.9)}
+.block{margin-bottom:32px}
+.block__head{padding:0 2px 10px;margin-bottom:14px;border-bottom:0}
+.block__head h3{letter-spacing:-.01em}
+.panel,.week,.links,.notes,.subs,.examHero{
+  border-radius:var(--radius-md);
+  box-shadow:0 12px 26px -22px rgba(32,38,58,.7);
+}
+.panel{border-color:var(--line)}
+.row,.hw,.exrow{transition:background .18s ease,box-shadow .18s ease}
+.row:first-child,.hw:first-child,.exrow:first-child{border-start-start-radius:var(--radius-md);border-start-end-radius:var(--radius-md)}
+.row:last-child,.hw:last-child,.exrow:last-child{border-end-start-radius:var(--radius-md);border-end-end-radius:var(--radius-md)}
+.row:hover,.hw:hover,.exrow:hover{box-shadow:inset 3px 0 0 var(--mark)}
+.row .what strong,.hw__body strong,.exrow strong{letter-spacing:-.005em}
+.linkbtn{box-shadow:0 2px 8px -7px rgba(32,38,58,.8)}
+.linkbtn:hover{transform:translateY(-1px);box-shadow:0 5px 12px -9px rgba(32,38,58,.9)}
+.week{gap:2px}
+.day{padding:11px}
+.day__head{padding-bottom:8px;margin-bottom:9px}
+.slot{padding:7px 9px;margin-bottom:7px;border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+.slot:hover{box-shadow:inset 0 0 0 1px var(--line)}
+.day__add{border-radius:var(--radius-sm);padding:6px}
+.fchip{padding:5px 12px;border-radius:var(--radius-sm);transition:background .18s ease,border-color .18s ease}
+.fchip[aria-pressed="true"]{box-shadow:0 4px 12px -10px currentColor}
+.linkitem{padding:14px 15px;transition:background .18s ease}
+.linkitem:hover{background:var(--hover)}
+.notecard,.sub{transition:background .18s ease,transform .18s ease,box-shadow .18s ease}
+.notecard:hover,.sub:hover{transform:translateY(-2px);box-shadow:0 10px 20px -18px rgba(32,38,58,.9)}
+.pomo{border-radius:var(--radius-lg);padding:32px 24px 24px}
+.pomo__clock{letter-spacing:.02em}
+dialog{border-radius:var(--radius-lg);overflow:hidden}
+dialog{
+  max-height:calc(100vh - 28px);max-height:calc(100dvh - 28px);
+}
+dialog > form,#dlgSearch{
+  display:flex;flex-direction:column;min-height:0;
+}
+dialog > form{max-height:inherit}
+dialog .dlg__body{
+  min-height:0;flex:1 1 auto;overflow-y:auto;overscroll-behavior:contain;
+  scrollbar-width:thin;scrollbar-color:var(--line) transparent;
+}
+dialog .dlg__head,dialog .dlg__foot{flex:0 0 auto}
+dialog .dlg__body::-webkit-scrollbar{width:8px}
+dialog .dlg__body::-webkit-scrollbar-thumb{background:var(--line);border-radius:999px}
+.searchbar{position:relative}
+.searchbar input{padding-inline-end:44px}
+.searchClear{
+  position:absolute;inset-inline-end:7px;top:50%;transform:translateY(-50%);
+  width:28px;height:28px;font-size:1.1rem;
+}
+.searchbar .searchClear:hover{transform:translateY(-50%)}
+.searchMeta{
+  min-height:18px;margin-top:8px;font-size:.76rem;color:var(--ink-faint);
+}
+.searchMeta:empty{display:none}
+.dlg__head{padding:18px 20px 12px}
+.dlg__head{display:flex;align-items:center;gap:12px}
+.dlgClose{
+  margin-inline-start:auto;width:32px;height:32px;padding:0;
+  display:inline-flex;align-items:center;justify-content:center;
+  background:transparent;border:1px solid transparent;border-radius:50%;
+  color:var(--ink-faint);font-size:1.35rem;line-height:1;cursor:pointer;
+  transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease;
+}
+.dlgClose:hover{background:var(--hover);border-color:var(--line);color:var(--ink);transform:rotate(90deg)}
+.dlgClose:focus-visible{outline:2px solid var(--mark);outline-offset:2px}
+.dlg__body{padding:16px 20px}
+.dlg__foot{padding:13px 20px 18px}
+input[type=text],input[type=time],input[type=date],input[type=url],input[type=number],input[type=search],select,textarea{
+  border-radius:var(--radius-sm);transition:border-color .18s ease,box-shadow .18s ease,background .18s ease;
+}
+.primary,.danger{border-radius:var(--radius-sm)}
+.primary:hover,.danger:hover{transform:translateY(-1px);box-shadow:0 6px 14px -10px rgba(32,38,58,.9)}
+.toast{border-radius:var(--radius-sm);box-shadow:0 12px 28px -15px rgba(0,0,0,.7);transform:translateX(-50%)}
+.primary:active,.ghost:active,.add:active,.tab:active,.fchip:active{transform:translateY(1px) scale(.98)}
+@keyframes dialogIn{
+  from{opacity:0;transform:translateY(12px) scale(.985)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+@keyframes backdropIn{from{opacity:0}to{opacity:1}}
+@keyframes noticeIn{
+  from{opacity:0;transform:translateY(-7px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes toastIn{
+  from{opacity:0;transform:translate(-50%,12px)}
+  to{opacity:1;transform:translate(-50%,0)}
+}
+@keyframes softPulse{
+  0%,100%{box-shadow:0 5px 16px -12px rgba(217,164,40,.9)}
+  50%{box-shadow:0 7px 22px -10px rgba(217,164,40,.95)}
+}
+@keyframes swatchPop{
+  0%{transform:scale(.9)}
+  70%{transform:scale(1.16)}
+  100%{transform:scale(1.12)}
+}
+dialog[open]{animation:dialogIn .22s cubic-bezier(.2,.75,.25,1) both}
+dialog[open]::backdrop{animation:backdropIn .22s ease-out both}
+.notice{animation:noticeIn .24s ease-out both}
+.toast{animation:toastIn .24s cubic-bezier(.2,.75,.25,1) both}
+.hero .pulse{animation:softPulse 3s ease-in-out infinite}
+.swatches button[aria-pressed="true"]{animation:swatchPop .2s ease-out both}
+@media (max-width:640px){
+  .wrap{padding-inline:12px}
+  .masthead{padding-top:20px;align-items:flex-start}
+  .brand{font-size:1.35rem}
+  .mastActions{max-width:48%;gap:5px}
+  .ghost{padding:6px 9px;font-size:.75rem}
+  nav.tabs{margin-inline:-4px;padding:6px;top:5px;overflow-x:auto;flex-wrap:nowrap}
+  .tab{flex:0 0 auto;padding:8px 11px;font-size:.82rem}
+  .hero{padding:16px;border-radius:var(--radius-md)}
+  .row{grid-template-columns:minmax(72px,82px) 4px minmax(0,1fr) auto;gap:8px;padding-inline:7px}
+  .tail{min-width:0}
+  .linkbtn{padding:4px 8px;font-size:.7rem}
+  .block__head{align-items:flex-start}
+  .block__head .add{font-size:.75rem;padding:6px 9px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <h1 class="brand">Kashkool<small>Lessons · Homework · Weekly schedule</small></h1>
+    <div class="mastActions">
+      <button class="iconbtn" id="searchBtn" type="button" aria-label="Search">🔍</button>
+      <button class="ghost" id="themeBtn" type="button">Dark mode</button>
+      <button class="ghost" id="langBtn" type="button">English</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" data-view="today" aria-selected="true">Today</button>
+    <button class="tab" role="tab" data-view="week" aria-selected="false">Week</button>
+    <button class="tab" role="tab" data-view="hw" aria-selected="false">Homework <span class="count" id="hwCount"></span></button>
+    <button class="tab" role="tab" data-view="exams" aria-selected="false">Exams</button>
+    <button class="tab" role="tab" data-view="links" aria-selected="false">Resources</button>
+    <button class="tab" role="tab" data-view="notes" aria-selected="false">Notes</button>
+    <button class="tab" role="tab" data-view="pomo" aria-selected="false">Timer</button>
+    <button class="tab" role="tab" data-view="stats" aria-selected="false">Progress</button>
+    <button class="tab" role="tab" data-view="subjects" aria-selected="false">Subjects</button>
+  </nav>
+
+  <div id="notice"></div>
+  <div id="tip"></div>
+
+  <main>
+    <section class="view" id="view-today">
+      <div class="hero">
+        <div>
+          <h2 id="todayName">—</h2>
+          <div class="stamp" id="todayDate"></div>
+          <div class="stamp muted" id="todaySummary"></div>
+        </div>
+        <div class="pulse" id="todayPulse" hidden>
+          <span id="pulseText"></span><b class="pulseClock" id="pulseClock"></b>
+        </div>
+      </div>
+      <div class="cols">
+        <div>
+          <div class="block">
+            <div class="block__head">
+           <h3>Today's schedule</h3>
+              <button class="add" type="button" data-add="entry">+ Lesson or event</button>
+            </div>
+            <div id="todayEntries"><div class="skeleton">Loading…</div></div>
+          </div>
+        </div>
+        <div>
+          <div class="block">
+            <div class="block__head">
+             <h3>Upcoming homework</h3>
+              <button class="add" type="button" data-add="hw">+ Homework</button>
+            </div>
+            <div id="todayHw"><div class="skeleton">Loading…</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-week" hidden>
+      <div class="block__head">
+        <h3>Weekly schedule <span class="hint" id="weekRange"></span></h3>
+        <button class="add" type="button" data-add="entry">+ Lesson or event</button>
+      </div>
+      <div class="filter" id="weekFilter"></div>
+      <div class="week" id="weekGrid"></div>
+    </section>
+
+    <section class="view" id="view-hw" hidden>
+      <div class="block__head">
+        <h3>Homework</h3>
+        <button class="add" type="button" data-add="hw">+ Homework</button>
+      </div>
+      <div id="hwList"></div>
+    </section>
+
+    <section class="view" id="view-exams" hidden>
+      <div class="block__head">
+        <h3>Exams</h3>
+        <button class="add" type="button" data-add="exam">+ Exam</button>
+      </div>
+      <div class="examHero" id="examHero" hidden>
+        <span class="examHero__label" id="examHeroLabel"></span>
+        <b class="examHero__title" id="examHeroTitle"></b>
+        <span class="examHero__clock" id="examHeroClock"></span>
+      </div>
+      <div id="examList"></div>
+    </section>
+
+    <section class="view" id="view-links" hidden>
+      <div class="block__head">
+        <h3>Resources <span class="hint">YouTube, platforms, files… saved by subject</span></h3>
+        <button class="add" type="button" data-add="link">+ Resource</button>
+      </div>
+      <div class="filter" id="linksFilter"></div>
+      <div id="linksList"></div>
+    </section>
+
+    <section class="view" id="view-notes" hidden>
+      <div class="block__head">
+        <h3>Notes <span class="hint">Anything you want to remember, optionally linked to a subject</span></h3>
+        <button class="add" type="button" data-add="note">+ Note</button>
+      </div>
+      <div class="filter" id="notesFilter"></div>
+      <div id="notesList"></div>
+    </section>
+
+    <section class="view" id="view-pomo" hidden>
+      <div class="block__head"><h3>Study timer</h3></div>
+      <div class="pomo">
+        <div class="pomo__mode" id="pomoMode">Study</div>
+        <div class="pomo__clock" id="pomoClock">25:00</div>
+        <div class="pomo__round" id="pomoRound">Round 1 of 4</div>
+        <div class="pomo__controls">
+          <button class="primary" type="button" id="pomoToggle">Start</button>
+          <button class="ghost" type="button" id="pomoSkip">Skip</button>
+          <button class="ghost" type="button" id="pomoReset">Reset</button>
+        </div>
+        <details class="pomo__settings">
+          <summary>Timer settings</summary>
+          <div class="pair">
+            <div><label for="p_work">Study (minutes)</label><input type="number" id="p_work" min="1" max="180" value="25"></div>
+            <div><label for="p_break">Short break (minutes)</label><input type="number" id="p_break" min="1" max="60" value="5"></div>
+          </div>
+          <div class="pair">
+            <div><label for="p_long">Long break (minutes)</label><input type="number" id="p_long" min="1" max="120" value="15"></div>
+            <div><label for="p_rounds">Long break every (rounds)</label><input type="number" id="p_rounds" min="1" max="12" value="4"></div>
+          </div>
+          <button class="add" type="button" id="p_apply">Apply</button>
+        </details>
+      </div>
+    </section>
+
+    <section class="view" id="view-stats" hidden>
+      <div class="block__head"><h3 id="statsHeading">Progress charts</h3></div>
+      <div class="metricRow">
+        <div class="metric"><b id="statMinutes">0</b><span id="statMinutesLabel">Study minutes this week</span></div>
+        <div class="metric"><b id="statSessions">0</b><span id="statSessionsLabel">Completed sessions</span></div>
+        <div class="metric"><b id="statHwRate">0%</b><span id="statHwRateLabel">Homework completion</span></div>
+      </div>
+      <div class="statsGrid">
+        <article class="statCard wide">
+          <h4 id="studyChartTitle">Study time through the week</h4>
+          <div class="statSub" id="studyChartSub">Completed focus sessions</div>
+          <canvas class="chartCanvas" id="studyChart" aria-label="Weekly study time chart"></canvas>
+        </article>
+        <article class="statCard">
+          <h4 id="hwChartTitle">Homework progress</h4>
+          <div class="donutWrap">
+            <div class="donut" id="hwDonut"><div class="donutLabel" id="hwDonutLabel">0%<small>completed</small></div></div>
+            <div class="legend"><span id="doneLegend">Completed</span><span id="openLegend">Remaining</span></div>
+          </div>
+        </article>
+        <article class="statCard">
+          <h4 id="subjectChartTitle">Workload by subject</h4>
+          <div class="statSub" id="subjectChartSub">Open homework and weekly lessons</div>
+          <div class="subjectBars" id="subjectBars"></div>
+        </article>
+      </div>
+    </section>
+    <section class="view" id="view-subjects" hidden>
+      <div class="block__head">
+        <h3>Subjects <span class="hint">Colors appear on your schedule and homework</span></h3>
+        <button class="add" type="button" data-add="subject">+ Subject</button>
+      </div>
+      <div id="subList"></div>
+    </section>
+  </main>
+</div>
+
+<!-- ============ dialogs ============ -->
+<dialog id="dlgExam">
+  <form method="dialog" id="formExam">
+    <div class="dlg__head"><h3 id="examTitle">New exam</h3><button class="dlgClose" type="button" data-close aria-label="Close">×</button></div>
+    <div class="dlg__body">
+      <div>
+        <label for="x_title">Exam name</label>
+        <input type="text" id="x_title" placeholder="e.g. Midterm exam — Math">
+      </div>
+      <div>
+        <label for="x_subject">Subject</label>
+        <select id="x_subject"><option value="">— No subject —</option></select>
+      </div>
+      <div class="pair">
+        <div><label for="x_date">Date</label><input type="date" id="x_date"></div>
+        <div><label for="x_time">Time (optional)</label><input type="time" id="x_time"></div>
+      </div>
+      <div>
+        <label for="x_place">Location</label>
+        <input type="text" id="x_place" placeholder="Room, committee…">
+      </div>
+      <div>
+        <label for="x_note">Note</label>
+        <textarea id="x_note" placeholder="Syllabus, things to bring…"></textarea>
+      </div>
+    </div>
+    <div class="dlg__foot">
+      <button class="primary" type="button" id="x_save">Save</button>
+      <button class="ghost" type="button" data-close>Cancel</button>
+      <span class="spacer"></span>
+      <button class="danger" type="button" id="x_del" hidden>Delete</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgSearch">
+  <div class="dlg__head"><h3>Search</h3><button class="dlgClose" type="button" data-close aria-label="Close">×</button></div>
+  <div class="dlg__body">
+    <div class="searchbar">
+      <input type="search" id="sq" placeholder="Search lessons, homework, exams, resources, notes, and subjects…" autocomplete="off">
+      <button class="iconbtn searchClear" type="button" id="searchClear" data-search-clear hidden aria-label="Clear search">×</button>
+    </div>
+    <div class="searchMeta" id="searchMeta" aria-live="polite"></div>
+    <div id="searchResults"></div>
+  </div>
+  <div class="dlg__foot"><button class="ghost" type="button" data-close>Close</button></div>
+</dialog>
+
+<dialog id="dlgEntry">
+  <form method="dialog" id="formEntry">
+    <div class="dlg__head"><h3 id="entryTitle">New lesson or event</h3><button class="dlgClose" type="button" data-close aria-label="Close">×</button></div>
+    <div class="dlg__body">
+      <div>
+        <label for="e_title">Title</label>
+        <input type="text" id="e_title" placeholder="e.g. Math class, tutoring, doctor appointment">
+      </div>
+      <div>
+        <label for="e_subject">Subject</label>
+        <select id="e_subject"><option value="">— No subject —</option></select>
+      </div>
+      <div>
+        <label id="e_dayLbl">Days <span class="hint-inline" id="e_dayHint">You can choose more than one day</span></label>
+        <div class="daypick" id="e_days" role="group" aria-labelledby="e_dayLbl"></div>
+      </div>
+      <div>
+        <label class="checkline"><input type="checkbox" id="e_notime"> No specific time (all day)</label>
+      </div>
+      <div class="pair" id="e_timePair">
+        <div><label for="e_from">From</label><input type="time" id="e_from" value="08:00"></div>
+        <div><label for="e_to">To</label><input type="time" id="e_to" value="09:00"></div>
+      </div>
+      <div>
+        <label for="e_place">Location</label>
+        <input type="text" id="e_place" placeholder="Classroom, center, online…">
+      </div>
+      <div>
+        <label for="e_link">Resource link</label>
+        <input type="url" id="e_link" dir="ltr" placeholder="https://youtube.com/watch?v=…">
+        <select id="e_linkpick" class="mini" aria-label="Choose a saved resource"><option value="">Or choose a saved resource</option></select>
+      </div>
+      <div>
+        <label for="e_note">Note</label>
+        <textarea id="e_note" placeholder="Anything to remember"></textarea>
+      </div>
+    </div>
+    <div class="dlg__foot">
+      <button class="primary" type="button" id="e_save">Save</button>
+      <button class="ghost" type="button" data-close>Cancel</button>
+      <span class="spacer"></span>
+      <button class="danger" type="button" id="e_del" hidden>Delete</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgHw">
+  <form method="dialog" id="formHw">
+    <div class="dlg__head"><h3 id="hwTitle">New homework</h3><button class="dlgClose" type="button" data-close aria-label="Close">×</button></div>
+    <div class="dlg__body">
+      <div>
+        <label for="h_title">Homework</label>
+        <input type="text" id="h_title" placeholder="e.g. Solve exercises on page 42">
+      </div>
+      <div>
+        <label for="h_subject">Subject</label>
+        <select id="h_subject"><option value="">— No subject —</option></select>
+      </div>
+      <div>
+        <label for="h_due">Due</label>
+        <input type="date" id="h_due">
+      </div>
+      <div>
+        <label for="h_link">Resource link</label>
+        <input type="url" id="h_link" dir="ltr" placeholder="https://…">
+      </div>
+      <div>
+        <label for="h_note">Details</label>
+        <textarea id="h_note" placeholder="What exactly is required"></textarea>
+      </div>
+    </div>
+    <div class="dlg__foot">
+      <button class="primary" type="button" id="h_save">Save</button>
+      <button class="ghost" type="button" data-close>Cancel</button>
+      <span class="spacer"></span>
+      <button class="danger" type="button" id="h_del" hidden>Delete</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgLink">
+  <form method="dialog" id="formLink">
+    <div class="dlg__head"><h3 id="linkTitle">New resource</h3><button class="dlgClose" type="button" data-close aria-label="Close">×</button></div>
+    <div class="dlg__body">
+      <div>
+        <label for="l_title">Title</label>
+        <input type="text" id="l_title" placeholder="e.g. Chapter two explanation — channel name">
+      </div>
+      <div>
+        <label for="l_url">URL</label>
+        <input type="url" id="l_url" dir="ltr" placeholder="https://…">
+      </div>
+      <div>
+        <label for="l_subject">Subject</label>
+        <select id="l_subject"><option value="">— No subject —</option></select>
+      </div>
+      <div>
+        <label for="l_note">Note</label>
+        <textarea id="l_note" placeholder="Episode number, where you stopped…"></textarea>
+      </div>
+    </div>
+    <div class="dlg__foot">
+      <button class="primary" type="button" id="l_save">Save</button>
+      <button class="ghost" type="button" data-close>Cancel</button>
+      <span class="spacer"></span>
+      <button class="danger" type="button" id="l_del" hidden>Delete</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgNote">
+  <form method="dialog" id="formNote">
+    <div class="dlg__head"><h3 id="noteTitle">New note</h3><button class="dlgClose" type="button" data-close aria-label="Close">×</button></div>
+    <div class="dlg__body">
+      <div>
+        <label for="n_title">Title</label>
+        <input type="text" id="n_title" placeholder="e.g. Lesson summary, project ideas…">
+      </div>
+      <div>
+        <label for="n_subject">Subject</label>
+        <select id="n_subject"><option value="">— No subject —</option></select>
+      </div>
+      <div>
+        <label for="n_body">Note</label>
+        <textarea id="n_body" placeholder="Write what you want to remember…" style="min-height:140px"></textarea>
+      </div>
+    </div>
+    <div class="dlg__foot">
+      <button class="primary" type="button" id="n_save">Save</button>
+      <button class="ghost" type="button" data-close>Cancel</button>
+      <span class="spacer"></span>
+      <button class="danger" type="button" id="n_del" hidden>Delete</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgSub">
+  <form method="dialog" id="formSub">
+    <div class="dlg__head"><h3 id="subTitle">New subject</h3><button class="dlgClose" type="button" data-close aria-label="Close">×</button></div>
+    <div class="dlg__body">
+      <div>
+        <label for="s_name">Subject name</label>
+        <input type="text" id="s_name" placeholder="Arabic, Math, Physics…">
+      </div>
+      <div>
+        <label>Color</label>
+        <div class="swatches" id="s_colors"></div>
+      </div>
+      <div>
+        <label for="s_teacher">Teacher</label>
+        <input type="text" id="s_teacher" placeholder="Teacher name (optional)">
+      </div>
+    </div>
+    <div class="dlg__foot">
+      <button class="primary" type="button" id="s_save">Save</button>
+      <button class="ghost" type="button" data-close>Cancel</button>
+      <span class="spacer"></span>
+      <button class="danger" type="button" id="s_del" hidden>Delete</button>
+    </div>
+  </form>
+</dialog>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------------- constants ---------------- */
+  var DAYS_AR = ["السبت","الأحد","الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة"];
+  var DAYS_EN = ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"];
+  var MONTHS_AR = ["يناير","فبراير","مارس","أبريل","مايو","يونيو","يوليو","أغسطس","سبتمبر","أكتوبر","نوفمبر","ديسمبر"];
+  var MONTHS_EN = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var DAYS = DAYS_AR;
+  var MONTHS = MONTHS_AR;
+  var PALETTE = ["#C24A3E","#2E5E9E","#2F7D62","#8A5BB5","#C98A22","#0E7C86","#B4456F","#5C6B7A"];
+  var DEFAULT_COLOR = "#5C6B7A";
+  var LS_KEY = "kashkool.data.v1";
+  var LS_THEME = "kashkool.theme";
+  var LS_LANG = "kashkool.lang";
+  var lang = "ar";
+
+  var UI = {
+    ar: {
+      title: "الكشكول", subtitle: "دروسي · واجباتي · مواعيد الأسبوع", search: "بحث",
+      dark: "الوضع الداكن", light: "الوضع الفاتح", today: "النهاردة", week: "الأسبوع",
+      homework: "الواجبات", exams: "امتحانات", links: "الشروحات", notes: "نوتات",
+      timer: "مؤقّت", stats: "التقدم", subjects: "المواد", sections: "أقسام", todaySchedule: "جدول اليوم",
+      addEntry: "+ درس أو ميعاد", addHomework: "+ واجب", weekSchedule: "جدول الأسبوع",
+      addExam: "+ امتحان", addLink: "+ لينك", addNote: "+ نوتة", studyTimer: "مؤقّت مذاكرة",
+      study: "مذاكرة", start: "ابدأ", pause: "إيقاف مؤقت", skip: "تخطي", reset: "إعادة ضبط",
+      timerSettings: "إعدادات المؤقّت", shortBreak: "استراحة قصيرة (دقيقة)",
+      longBreak: "استراحة طويلة (دقيقة)", rounds: "استراحة طويلة كل كام جولة", apply: "تطبيق",
+      subjectHint: "اللون بيمشي على الجدول والواجبات", linksHint: "يوتيوب، منصة، ملف… محفوظين حسب المادة",
+      notesHint: "أي حاجة عايز تفتكرها، مربوطة بمادة لو حبيت", addSubject: "+ مادة",
+      save: "حفظ", cancel: "إلغاء", remove: "مسح", close: "قفل", clear: "مسح البحث", results: "نتيجة", newExam: "امتحان جديد",
+      editExam: "تعديل الامتحان", examName: "اسم الامتحان", subject: "المادة",
+      noSubject: "— من غير مادة —", date: "التاريخ", optionalTime: "الساعة (اختياري)",
+      place: "المكان", note: "ملاحظة", newEntry: "درس أو ميعاد جديد", edit: "تعديل",
+      title: "العنوان", days: "الأيام", dayHint: "تقدر تختار أكتر من يوم مرة واحدة",
+      noTime: "بدون وقت محدد (طول اليوم)", from: "من", to: "لـ", link: "لينك الشرح",
+      chooseSavedLink: "أو اختار من الشروحات المحفوظة", homeworkName: "الواجب",
+      due: "التسليم", details: "تفاصيل", newHomework: "واجب جديد", editHomework: "تعديل الواجب",
+      newLink: "لينك جديد", editLink: "تعديل اللينك", url: "الرابط", newNote: "نوتة جديدة",
+      editNote: "تعديل النوتة", noteBody: "النوتة", newSubject: "مادة جديدة", subjectName: "اسم المادة",
+      color: "اللون", teacher: "المدرس", optionalTeacher: "اسم المدرس (اختياري)", searchPlaceholder: "دوّر في الدروس، الواجبات، الامتحانات، الشروحات، النوتات، المواد…"
+    },
+    en: {
+      title: "Kashkool", subtitle: "Lessons · Homework · Weekly schedule", search: "Search",
+      dark: "Dark mode", light: "Light mode", today: "Today", week: "Week",
+      homework: "Homework", exams: "Exams", links: "Resources", notes: "Notes",
+      timer: "Timer", stats: "Progress", subjects: "Subjects", sections: "Sections", todaySchedule: "Today's schedule",
+      addEntry: "+ Lesson or event", addHomework: "+ Homework", weekSchedule: "Weekly schedule",
+      addExam: "+ Exam", addLink: "+ Resource", addNote: "+ Note", studyTimer: "Study timer",
+      study: "Study", start: "Start", pause: "Pause", skip: "Skip", reset: "Reset",
+      timerSettings: "Timer settings", shortBreak: "Short break (minutes)",
+      longBreak: "Long break (minutes)", rounds: "Long break every (rounds)", apply: "Apply",
+      subjectHint: "Colors appear on your schedule and homework", linksHint: "YouTube, platforms, files… saved by subject",
+      notesHint: "Anything you want to remember, optionally linked to a subject", addSubject: "+ Subject",
+      save: "Save", cancel: "Cancel", remove: "Delete", close: "Close", clear: "Clear search", results: "results", newExam: "New exam",
+      editExam: "Edit exam", examName: "Exam name", subject: "Subject",
+      noSubject: "— No subject —", date: "Date", optionalTime: "Time (optional)",
+      place: "Location", note: "Note", newEntry: "New lesson or event", edit: "Edit",
+      title: "Title", days: "Days", dayHint: "You can choose more than one day",
+      noTime: "No specific time (all day)", from: "From", to: "To", link: "Resource link",
+      chooseSavedLink: "Or choose a saved resource", homeworkName: "Homework",
+      due: "Due", details: "Details", newHomework: "New homework", editHomework: "Edit homework",
+      newLink: "New resource", editLink: "Edit resource", url: "URL", newNote: "New note",
+      editNote: "Edit note", noteBody: "Note", newSubject: "New subject", subjectName: "Subject name",
+      color: "Color", teacher: "Teacher", optionalTeacher: "Teacher name (optional)", searchPlaceholder: "Search lessons, homework, exams, resources, notes, and subjects…"
+    }
+  };
+  function tr(key){ return UI[lang][key] || key; }
+  function setText(selector, key){
+    var el = document.querySelector(selector);
+    if(el) el.textContent = tr(key);
+  }
+  function setFirstText(selector, key){
+    var el = document.querySelector(selector);
+    if(el && el.firstChild) el.firstChild.nodeValue = tr(key) + " ";
+  }
+  function setPlaceholder(selector, key){
+    var el = document.querySelector(selector);
+    if(el) el.placeholder = tr(key);
+  }
+  function applyLanguage(){
+    DAYS = lang === "en" ? DAYS_EN : DAYS_AR;
+    MONTHS = lang === "en" ? MONTHS_EN : MONTHS_AR;
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === "en" ? "ltr" : "rtl";
+    document.title = lang === "en" ? "Kashkool — Lessons, Homework and Weekly Schedule" : "الكشكول — دروسي وواجباتي وجدول الأسبوع";
+    $("langBtn").textContent = lang === "en" ? "العربية" : "English";
+    document.querySelectorAll(".dlgClose").forEach(function(btn){ btn.setAttribute("aria-label", tr("close")); });
+    var brand = document.querySelector(".brand");
+    if(brand && brand.firstChild) brand.firstChild.nodeValue = tr("title");
+    var small = document.querySelector(".brand small");
+    if(small) small.textContent = tr("subtitle");
+    setText("#themeBtn", document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark");
+    $("searchBtn").setAttribute("aria-label", tr("search"));
+    document.querySelector(".tabs").setAttribute("aria-label", tr("sections"));
+    document.querySelector('[data-view="today"]').textContent = tr("today");
+    document.querySelector('[data-view="week"]').textContent = tr("week");
+    var hwTab = document.querySelector('[data-view="hw"]');
+    if(hwTab && hwTab.firstChild) hwTab.firstChild.nodeValue = tr("homework") + " ";
+    document.querySelector('[data-view="exams"]').textContent = tr("exams");
+    document.querySelector('[data-view="links"]').textContent = tr("links");
+    document.querySelector('[data-view="notes"]').textContent = tr("notes");
+    document.querySelector('[data-view="pomo"]').textContent = tr("timer");
+    document.querySelector('[data-view="stats"]').textContent = tr("stats");
+    document.querySelector('[data-view="subjects"]').textContent = tr("subjects");
+    setText("#view-today h3", "todaySchedule");
+    setFirstText("#view-week h3", "weekSchedule");
+    setText("#view-hw h3", "homework");
+    setText("#view-exams h3", "exams");
+    setFirstText("#view-links h3", "links");
+    setFirstText("#view-notes h3", "notes");
+    setText("#view-pomo h3", "studyTimer");
+    var statsText = lang === "en" ? {
+      heading:"Progress charts",min:"Study minutes this week",sessions:"Completed sessions",rate:"Homework completion",
+      study:"Study time through the week",studySub:"Completed focus sessions",hw:"Homework progress",done:"Completed",open:"Remaining",
+      subject:"Workload by subject",subjectSub:"Open homework and weekly lessons",completed:"completed"
+    } : {
+      heading:"رسوم التقدم",min:"دقائق المذاكرة هذا الأسبوع",sessions:"جلسات مكتملة",rate:"نسبة إنجاز الواجبات",
+      study:"وقت المذاكرة خلال الأسبوع",studySub:"جلسات التركيز المكتملة",hw:"تقدم الواجبات",done:"مكتمل",open:"متبقي",
+      subject:"الحِمل حسب المادة",subjectSub:"الواجبات المفتوحة وحصص الأسبوع",completed:"مكتمل"
+    };
+    [["statsHeading","heading"],["statMinutesLabel","min"],["statSessionsLabel","sessions"],["statHwRateLabel","rate"],
+     ["studyChartTitle","study"],["studyChartSub","studySub"],["hwChartTitle","hw"],["doneLegend","done"],["openLegend","open"],
+     ["subjectChartTitle","subject"],["subjectChartSub","subjectSub"]].forEach(function(pair){ if($(pair[0])) $(pair[0]).textContent=statsText[pair[1]]; });
+    setFirstText("#view-subjects h3", "subjects");
+    document.querySelectorAll('[data-add="entry"]').forEach(function(el){ el.textContent = tr("addEntry"); });
+    document.querySelectorAll('[data-add="hw"]').forEach(function(el){ el.textContent = tr("addHomework"); });
+    document.querySelectorAll('[data-add="exam"]').forEach(function(el){ el.textContent = tr("addExam"); });
+    document.querySelectorAll('[data-add="link"]').forEach(function(el){ el.textContent = tr("addLink"); });
+    document.querySelectorAll('[data-add="note"]').forEach(function(el){ el.textContent = tr("addNote"); });
+    document.querySelectorAll('[data-add="subject"]').forEach(function(el){ el.textContent = tr("addSubject"); });
+    setText("#view-links .hint", "linksHint");
+    setText("#view-notes .hint", "notesHint");
+    setText("#view-subjects .hint", "subjectHint");
+    if($("pomoMode")) $("pomoMode").textContent = typeof pomo !== "undefined" && pomo ? pomoLabel(pomo.mode) : tr("study");
+    if($("pomoRound") && typeof pomo !== "undefined" && pomo){
+      $("pomoRound").textContent = lang === "en"
+        ? "Round " + pomo.round + " of " + pomoSettings.rounds
+        : "الجولة " + pomo.round + " من " + pomoSettings.rounds;
+    }
+    setText("#pomoToggle", pomo && pomo.running ? "pause" : "start");
+    setText("#pomoSkip", "skip"); setText("#pomoReset", "reset");
+    document.querySelector(".pomo__settings summary").textContent = tr("timerSettings");
+    setText("#p_apply", "apply");
+    setText('label[for="p_work"]', "study");
+    setText('label[for="p_break"]', "shortBreak");
+    setText('label[for="p_long"]', "longBreak");
+    setText('label[for="p_rounds"]', "rounds");
+    setText("#examTitle", editing.exam ? "editExam" : "newExam");
+    setText('label[for="x_title"]', "examName"); setText('label[for="x_subject"]', "subject");
+    setText('label[for="x_date"]', "date"); setText('label[for="x_time"]', "optionalTime");
+    setText('label[for="x_place"]', "place"); setText('label[for="x_note"]', "note");
+    setText("#x_save", "save"); setText("#x_del", "remove");
+    setText("#entryTitle", editing.entry ? "edit" : "newEntry");
+    setText('label[for="e_title"]', "title"); setText('label[for="e_subject"]', "subject");
+    setFirstText("#e_dayLbl", "days");
+    setText("#e_dayHint", "dayHint");
+    var noTimeLabel = document.querySelector("#e_notime");
+    if(noTimeLabel && noTimeLabel.parentElement) noTimeLabel.parentElement.lastChild.nodeValue = " " + tr("noTime");
+    setText('label[for="e_from"]', "from"); setText('label[for="e_to"]', "to");
+    setText('label[for="e_place"]', "place"); setText('label[for="e_link"]', "link"); setText('label[for="e_note"]', "note");
+    setText("#e_save", "save"); setText("#e_del", "remove");
+    setText("#hwTitle", editing.hw ? "editHomework" : "newHomework");
+    setText('label[for="h_title"]', "homeworkName"); setText('label[for="h_subject"]', "subject");
+    setText('label[for="h_due"]', "due"); setText('label[for="h_link"]', "link"); setText('label[for="h_note"]', "details");
+    setText("#h_save", "save"); setText("#h_del", "remove");
+    setText("#linkTitle", editing.link ? "editLink" : "newLink");
+    setText('label[for="l_title"]', "title"); setText('label[for="l_url"]', "url"); setText('label[for="l_subject"]', "subject"); setText('label[for="l_note"]', "note");
+    setText("#l_save", "save"); setText("#l_del", "remove");
+    setText("#noteTitle", editing.note ? "editNote" : "newNote");
+    setText('label[for="n_title"]', "title"); setText('label[for="n_subject"]', "subject"); setText('label[for="n_body"]', "noteBody");
+    setText("#n_save", "save"); setText("#n_del", "remove");
+    setText("#subTitle", editing.sub ? "edit" : "newSubject");
+    setText('label[for="s_name"]', "subjectName"); setText("#dlgSub label:not([for])", "color"); setText('label[for="s_teacher"]', "teacher");
+    setText("#s_save", "save"); setText("#s_del", "remove");
+    setPlaceholder("#sq", "searchPlaceholder");
+    var searchClear = $("searchClear");
+    if(searchClear){
+      searchClear.setAttribute("aria-label", tr("clear"));
+      searchClear.title = tr("clear");
+      searchClear.hidden = !$("sq").value.trim();
+    }
+    setText("#dlgSearch .dlg__head h3", "search"); setText("#dlgSearch .dlg__foot [data-close]", "close");
+    setText("#formExam .dlg__foot [data-close]", "cancel"); setText("#formEntry .dlg__foot [data-close]", "cancel");
+    setText("#formHw .dlg__foot [data-close]", "cancel"); setText("#formLink .dlg__foot [data-close]", "cancel");
+    setText("#formNote .dlg__foot [data-close]", "cancel"); setText("#formSub .dlg__foot [data-close]", "cancel");
+    var placeholders = lang === "en" ? {
+      "#x_title":"e.g. Midterm exam — Math", "#x_place":"Room, committee…", "#x_note":"Syllabus, things to bring…",
+      "#e_title":"e.g. Math class, tutoring, doctor appointment", "#e_place":"Classroom, center, online…", "#e_note":"Anything to remember",
+      "#h_title":"e.g. Solve exercises on page 42", "#h_note":"What exactly is required",
+      "#l_title":"e.g. Chapter two explanation — channel name", "#n_title":"e.g. Lesson summary, project ideas…",
+      "#n_body":"Write what you want to remember…", "#s_name":"Arabic, Math, Physics…", "#s_teacher":"Teacher name (optional)"
+    } : {
+      "#x_title":"مثلاً: امتحان نصف الترم — رياضة", "#x_place":"القاعة، اللجنة…", "#x_note":"المنهج، حاجات تاخدها معاك…",
+      "#e_title":"مثلاً: حصة رياضة، درس خصوصي، ميعاد دكتور", "#e_place":"فصل، سنتر، أونلاين…", "#e_note":"أي حاجة تفتكرها",
+      "#h_title":"مثلاً: حل تمارين صفحة 42", "#h_note":"المطلوب بالظبط",
+      "#l_title":"مثلاً: شرح الفصل التاني — قناة فلان", "#n_title":"مثلاً: ملخص الدرس، أفكار للمشروع…",
+      "#n_body":"اكتب اللي عايز تفتكره…", "#s_name":"عربي، رياضة، فيزياء…", "#s_teacher":"اسم المدرس (اختياري)"
+    };
+    Object.keys(placeholders).forEach(function(selector){
+      var el = document.querySelector(selector);
+      if(el) el.placeholder = placeholders[selector];
+    });
+    var linkPick = document.querySelector("#e_linkpick");
+    if(linkPick){
+      linkPick.setAttribute("aria-label", tr("chooseSavedLink"));
+      if(linkPick.options[0]) linkPick.options[0].textContent = tr("chooseSavedLink");
+    }
+  }
+
+  function englishText(text){
+    if(lang !== "en") return text;
+    var lead = String(text || "").match(/^\s*/)[0], tail = String(text || "").match(/\s*$/)[0];
+    var s = String(text || "").trim();
+    var exact = {
+      "بيفتح…":"Loading…", "المواد:":"Subjects:", "الكل":"All", "طول":"All", "اليوم":"day",
+      "دلوقتي":"Now", "الجاي":"Next", "مفيش واجب قريب.":"No upcoming homework.",
+      "ضيف واجب":"Add homework", "جدول":"Schedule", "واجب":"Homework", "امتحان":"Exam", "شرح":"Resource", "نوتة":"Note", "مادة":"Subject",
+      "خلص الجدول":"Schedule complete", "مفيش واجبات متسجلة.":"No homework yet.",
+      "ضيف أول واجب":"Add your first homework", "متأخرة":"Overdue", "الأسبوع ده":"This week",
+      "بعدين":"Later", "خلصت":"Completed", "مفيش امتحانات متسجلة.":"No exams yet.",
+      "ضيف أول امتحان":"Add your first exam", "فاتت":"Past", "أقرب امتحان":"Next exam",
+      "افتح":"Open", "النهاردة":"Today", "إمبارح":"Yesterday", "بدون عنوان":"Untitled",
+      "مفيش نوتات للمادة دي.":"No notes for this subject.", "لسه مفيش نوتات. دوّن أول حاجة عايز تفتكرها.":"No notes yet. Write down the first thing you want to remember.",
+      "ضيف نوتة":"Add a note", "ضيف موادك الأول، وبعدين لوّن بيها الجدول والواجبات.":"Add your subjects first, then use their colors for your schedule and homework.",
+      "ضيف مادة":"Add a subject", "مش في الجدول":"Not on the schedule", "لون":"Color",
+      "من غير ميعاد":"No due date", "النهاردة":"Today", "بكرة":"Tomorrow", "اتحفظت إعدادات المؤقّت.":"Timer settings saved.",
+      "الحفظ مانفعش. جرّب تاني.":"Save failed. Please try again.", "المسح مانفعش. جرّب تاني.":"Delete failed. Please try again.",
+      "الاتصال بالحفظ اتقطع. افتح الصفحة تاني.":"The save connection was lost. Reopen the page.",
+      "بياناتك القديمة اتنقلت هنا.":"Your previous data was moved here.",
+      "اكتب عنوان أو اختار مادة.":"Enter a title or choose a subject.",
+      "ميعاد النهاية لازم بعد البداية.":"The end time must be after the start time.",
+      "اختار يوم على الأقل.":"Choose at least one day.", "اكتب الواجب الأول.":"Enter the homework first.",
+      "حط الرابط الأول (لازم يبدأ بـ http).":"Enter a URL starting with http.", "اكتب حاجة في النوتة الأول.":"Write something in the note first.",
+      "حدد تاريخ الامتحان الأول.":"Choose the exam date first.", "اكتب اسم المادة.":"Enter the subject name.",
+      "اتحط اللينك.":"Resource link added.", "اكتب عشان تدوّر.":"Type to search.", "مفيش نتايج.":"No results."
+    };
+    if(exact[s]) return lead + exact[s] + tail;
+    s = s.replace(/اليوم لسه فاضي\./g, "Today is empty.")
+      .replace(/ضيف أول درس أو ميعاد/g, "Add your first lesson or event")
+      .replace(/مفيش شروحات محفوظة للمادة دي\./g, "No resources saved for this subject.")
+      .replace(/احفظ هنا شروح اليوتيوب أو أي منصة، وبعدين تقدر تربطها بأي حصة في الجدول\./g, "Save YouTube videos or resources here, then link them to any scheduled lesson.")
+      .replace(/مفيش نوتات للمادة دي\./g, "No notes for this subject.")
+      .replace(/لسه مفيش نوتات\. دوّن أول حاجة عايز تفتكرها\./g, "No notes yet. Write down the first thing you want to remember.")
+      .replace(/دلوقتي: /g, "Now: ").replace(/الجاي: /g, "Next: ")
+      .replace(/ — باقي /g, " — ").replace(/ بعد /g, " in ")
+      .replace(/خلص الجدول/g, "Schedule complete")
+      .replace(/فاضل (\d+)/g, "$1 remaining")
+      .replace(/طول اليوم/g, "All day")
+      .replace(/متأخر /g, "Overdue ").replace(/يومين/g, "2 days")
+      .replace(/(\d+) أيام/g, "$1 days").replace(/(\d+) يوم/g, "$1 days")
+      .replace(/يوم /g, "Day ").replace(/أقرب امتحان/g, "Next exam")
+      .replace(/من غير ميعاد/g, "No due date").replace(/النهاردة/g, "Today")
+      .replace(/بكرة/g, "Tomorrow").replace(/إمبارح/g, "Yesterday")
+      .replace(/حصة واحدة/g, "1 lesson").replace(/حصتين/g, "2 lessons")
+      .replace(/حصص/g, "lessons").replace(/حصة/g, "lesson")
+      .replace(/واجب تسليمه النهاردة/g, "homework due today")
+      .replace(/واجبين تسليمهم النهاردة/g, "2 homework items due today")
+      .replace(/واجبات تسليمهم النهاردة/g, "homework items due today")
+      .replace(/واجب مفتوح/g, "open homework").replace(/حصة في الأسبوع/g, "lessons this week")
+      .replace(/اتضافت في (\d+) أيام\./g, "Added on $1 days.")
+      .replace(/مفيش واجب قريب\./g, "No upcoming homework.")
+      .replace(/ضيف واجب/g, "Add homework").replace(/ضيف أول واجب/g, "Add your first homework")
+      .replace(/مفيش امتحانات متسجلة\./g, "No exams yet.").replace(/ضيف أول امتحان/g, "Add your first exam")
+      .replace(/مفيش واجبات متسجلة\./g, "No homework yet.")
+      .replace(/مفيش شروحات محفوظة للمادة دي\./g, "No resources saved for this subject.")
+      .replace(/اتحفظت إعدادات المؤقّت\./g, "Timer settings saved.");
+    return lead + s + tail;
+  }
+  function translateRenderedUI(){
+    if(lang !== "en") return;
+    var roots = document.querySelectorAll("#notice,#tip,#todaySummary,#pulseText,#todayEntries,#todayHw,#weekFilter,#weekGrid,#hwList,#examHero,#examList,#linksFilter,#linksList,#notesFilter,#notesList,#subList,#searchResults");
+    roots.forEach(function(root){
+      (function walk(node){
+        if(node.nodeType === 3){ node.nodeValue = englishText(node.nodeValue); return; }
+        Array.prototype.forEach.call(node.childNodes, walk);
+      })(root);
+    });
+    document.querySelectorAll('[aria-label="خلصت"]').forEach(function(el){ el.setAttribute("aria-label", "Completed"); });
+  }
+
+  /* ---------------- state ---------------- */
+  var state = { subjects: [], entries: [], homework: [], links: [], notes: [], exams: [] };
+  var db = null, mode = "loading", activeView = "today";
+  var loadedOnce = { subjects:false, entries:false, homework:false, links:false, notes:false, exams:false };
+  var editing = { entry:null, hw:null, sub:null, link:null, note:null, exam:null };
+  var pickedColor = PALETTE[0];
+  var pickedDays = [];
+  var subjectFilter = "";
+
+  var $ = function(id){ return document.getElementById(id); };
+
+  /* ---------------- date helpers ---------------- */
+  function todayIdx(){ return (new Date().getDay() + 1) % 7; }          // 0 = السبت
+  function idxOfDate(d){ return (d.getDay() + 1) % 7; }
+  function ymd(d){
+    var m = d.getMonth()+1, day = d.getDate();
+    return d.getFullYear() + "-" + (m<10?"0":"") + m + "-" + (day<10?"0":"") + day;
+  }
+  function parseYmd(s){
+    if(!s) return null;
+    var p = String(s).split("-");
+    if(p.length !== 3) return null;
+    var d = new Date(+p[0], +p[1]-1, +p[2]);
+    return isNaN(d.getTime()) ? null : d;
+  }
+  function startOfWeek(){
+    var d = new Date(); d.setHours(0,0,0,0);
+    d.setDate(d.getDate() - todayIdx());
+    return d;
+  }
+  function addDays(d, n){ var x = new Date(d.getTime()); x.setDate(x.getDate()+n); return x; }
+  function dayDiff(a, b){
+    var x = new Date(a.getFullYear(),a.getMonth(),a.getDate());
+    var y = new Date(b.getFullYear(),b.getMonth(),b.getDate());
+    return Math.round((y - x) / 86400000);
+  }
+  function fmtDate(d){ return d.getDate() + " " + MONTHS[d.getMonth()]; }
+  function fmtTime(t){
+    if(!t) return "";
+    var p = String(t).split(":"); if(p.length < 2) return t;
+    var h = +p[0], m = pad2(+p[1] || 0);
+    var suffix = lang === "en" ? (h < 12 ? "AM" : "PM") : (h < 12 ? "ص" : "م");
+    var h12 = h % 12; if(h12 === 0) h12 = 12;
+    return h12 + ":" + m + " " + suffix;
+  }
+  function mins(t){
+    if(!t) return 0;
+    var p = String(t).split(":");
+    return (+p[0]) * 60 + (+p[1] || 0);
+  }
+  function arabicDays(n){
+    if(lang === "en") return n === 1 ? "day" : n + " days";
+    if(n === 1) return "يوم";
+    if(n === 2) return "يومين";
+    if(n <= 10) return n + " أيام";
+    return n + " يوم";
+  }
+  function pad2(n){ return (n < 10 ? "0" : "") + n; }
+  function formatDuration(ms){
+    if(ms < 0) ms = 0;
+    var total = Math.floor(ms / 1000);
+    var h = Math.floor(total / 3600);
+    var m = Math.floor((total % 3600) / 60);
+    var s = total % 60;
+    return h > 0 ? (h + ":" + pad2(m) + ":" + pad2(s)) : (pad2(m) + ":" + pad2(s));
+  }
+  function tickCountdown(){
+    var clock = $("pulseClock");
+    if(!clock) return;
+    if(!countdownState){ clock.textContent = ""; return; }
+    var remain = countdownState.target - Date.now();
+    if(remain <= 0){
+      if(activeView === "today") renderToday();
+      return;
+    }
+    clock.textContent = formatDuration(remain);
+  }
+  function formatExamRemain(ms){
+    if(ms <= 0) return lang === "en" ? "Now" : "دلوقتي";
+    var totalSec = Math.floor(ms / 1000);
+    var days = Math.floor(totalSec / 86400);
+    var rem = totalSec - days * 86400;
+    var h = Math.floor(rem / 3600), m = Math.floor((rem % 3600) / 60), s = rem % 60;
+    if(lang === "en"){
+      if(days > 0) return "in " + arabicDays(days) + (h > 0 ? " " + h + "h" : "");
+      return "in " + pad2(h) + ":" + pad2(m) + ":" + pad2(s);
+    }
+    if(days > 0) return "خلال " + arabicDays(days) + (h > 0 ? " و" + h + " س" : "");
+    return "خلال " + pad2(h) + ":" + pad2(m) + ":" + pad2(s);
+  }
+  function tickExamHero(){
+    var clock = $("examHeroClock");
+    if(!clock || !examCountdownState) return;
+    var remain = examCountdownState.target - Date.now();
+    if(remain <= 0){
+      if(activeView === "exams") renderExams();
+      return;
+    }
+    clock.textContent = formatExamRemain(remain);
+  }
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
+      return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c];
+    });
+  }
+  function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+
+  function normUrl(u){
+    u = String(u == null ? "" : u).trim();
+    if(!u) return "";
+    if(!/^https?:\/\//i.test(u)){
+      if(/^[a-z][a-z0-9+.\-]*:/i.test(u)) return "";   // أي بروتوكول تاني مرفوض
+      u = "https://" + u;
+    }
+    return u;
+  }
+  function safeUrl(u){ return /^https?:\/\//i.test(String(u||"")) ? u : ""; }
+  function hostOf(u){
+    try{ return new URL(u).hostname.replace(/^www\./, ""); }catch(e){ return lang === "en" ? "resource" : "لينك"; }
+  }
+  function linkWord(u){
+    var h = hostOf(u);
+    if(/youtube|youtu\.be/i.test(h)) return lang === "en" ? "Video" : "فيديو";
+    if(/drive\.google|dropbox|onedrive/i.test(h)) return lang === "en" ? "File" : "ملف";
+    return lang === "en" ? "Resource" : "لينك";
+  }
+  function linkBtn(u, label){
+    var safe = safeUrl(u);
+    if(!safe) return "";
+    return '<a class="linkbtn" href="' + esc(safe) + '" target="_blank" rel="noopener noreferrer">' +
+      esc(label || linkWord(safe)) + "</a>";
+  }
+
+  /* ---------------- storage ---------------- */
+  function loadLocal(){
+    try{
+      var raw = localStorage.getItem(LS_KEY);
+      if(!raw) return;
+      var o = JSON.parse(raw);
+      function list(key){ return Array.isArray(o[key]) ? o[key] : []; }
+      state.subjects = list("subjects");
+      state.entries  = list("entries");
+      state.homework = list("homework");
+      state.links    = list("links");
+      state.notes    = list("notes");
+      state.exams    = list("exams");
+    }catch(e){}
+  }
+  function saveLocal(){
+    try{ localStorage.setItem(LS_KEY, JSON.stringify(state)); }catch(e){}
+  }
+
+  function put(coll, id, data){
+    if(mode === "db" && db){
+      var ref = id ? db.collection(coll).doc(id) : db.collection(coll).doc();
+      return ref.set(data).catch(function(err){ toast("الحفظ مانفعش. جرّب تاني."); throw err; });
+    }
+    var arr = state[coll];
+    var theId = id || uid();
+    var rec = Object.assign({ id: theId }, data);
+    var i = -1;
+    for(var k=0;k<arr.length;k++){ if(arr[k].id === theId){ i = k; break; } }
+    if(i >= 0) arr[i] = rec; else arr.push(rec);
+    saveLocal(); render();
+    return Promise.resolve();
+  }
+  function remove(coll, id){
+    if(mode === "db" && db){
+      return db.collection(coll).doc(id).delete().catch(function(){ toast("المسح مانفعش. جرّب تاني."); });
+    }
+    state[coll] = state[coll].filter(function(x){ return x.id !== id; });
+    saveLocal(); render();
+    return Promise.resolve();
+  }
+
+  function subscribe(coll){
+    db.collection(coll).onSnapshot(function(snap){
+      state[coll] = snap.docs.map(function(d){
+        return Object.assign({ id: d.id }, d.data());
+      });
+      loadedOnce[coll] = true;
+      maybeMigrate();
+      render();
+    }, function(err){
+      if(err && err.code === "revoked"){ notice("الاتصال بالحفظ اتقطع. افتح الصفحة تاني."); }
+    });
+  }
+
+  var migrated = false;
+  function maybeMigrate(){
+    if(migrated) return;
+    if(!(loadedOnce.subjects && loadedOnce.entries && loadedOnce.homework && loadedOnce.links && loadedOnce.notes && loadedOnce.exams)) return;
+    migrated = true;
+    if(state.subjects.length || state.entries.length || state.homework.length || state.links.length || state.notes.length || state.exams.length) return;
+    var raw;
+    try{ raw = localStorage.getItem(LS_KEY); }catch(e){ return; }
+    if(!raw) return;
+    var o; try{ o = JSON.parse(raw); }catch(e){ return; }
+    var lists = [["subjects", o.subjects||[]], ["entries", o.entries||[]], ["homework", o.homework||[]], ["links", o.links||[]], ["notes", o.notes||[]], ["exams", o.exams||[]]];
+    var any = lists.some(function(p){ return p[1].length; });
+    if(!any) return;
+    var chain = Promise.resolve();
+    lists.forEach(function(pair){
+      pair[1].forEach(function(item){
+        var body = Object.assign({}, item); delete body.id;
+        chain = chain.then(function(){ return db.collection(pair[0]).doc(item.id).set(body); });
+      });
+    });
+    chain.then(function(){
+      try{ localStorage.removeItem(LS_KEY); }catch(e){}
+      toast("بياناتك القديمة اتنقلت هنا.");
+    }).catch(function(){});
+  }
+
+  /* ---------------- ui helpers ---------------- */
+  var toastTimer = null;
+  var countdownState = null;
+  var examCountdownState = null;
+  function toast(msg){
+    var old = document.querySelector(".toast");
+    if(old) old.remove();
+    var el = document.createElement("div");
+    el.className = "toast"; el.textContent = englishText(msg); el.setAttribute("role","status"); el.setAttribute("aria-live","polite");
+    document.body.appendChild(el);
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ el.remove(); }, 3200);
+  }
+  function notice(msg){
+    $("notice").innerHTML = '<div class="notice">' + esc(englishText(msg)) + "</div>";
+  }
+  function confirmText(ar, en){ return confirm(lang === "en" ? en : ar); }
+  function updateTip(){
+    if(activeView === "subjects" || mode === "loading" || state.subjects.length){
+      $("tip").innerHTML = "";
+      return;
+    }
+    var tip = lang === "en"
+      ? "Start by adding your subjects, then use their colors for your schedule and homework."
+      : "ابدأ بإضافة موادك، وبعدين لوّن بيها الجدول والواجبات.";
+    $("tip").innerHTML = '<div class="notice"><span>' + esc(tip) + '</span>' +
+      '<button class="add" type="button" data-add="subject">' + esc(tr("addSubject")) + "</button></div>";
+  }
+  function subjectById(id){
+    for(var i=0;i<state.subjects.length;i++){ if(state.subjects[i].id === id) return state.subjects[i]; }
+    return null;
+  }
+  function colorOf(subjectId){
+    var s = subjectById(subjectId);
+    return s && s.color ? s.color : DEFAULT_COLOR;
+  }
+
+  /* ---------------- render ---------------- */
+  function renderTodayHeader(){
+    var now = new Date();
+    $("todayName").textContent = DAYS[todayIdx()];
+    $("todayDate").textContent = fmtDate(now) + " " + now.getFullYear();
+  }
+
+  function render(){
+    renderTabs();
+    updateTip();
+    if(mode === "loading"){ renderTodayHeader(); return; }
+    if(activeView === "today") renderToday();
+    if(activeView === "week") renderWeek();
+    if(activeView === "hw") renderHomework();
+    if(activeView === "exams") renderExams();
+    if(activeView === "links") renderLinks();
+    if(activeView === "notes") renderNotes();
+    if(activeView === "subjects") renderSubjects();
+    if(activeView === "stats") renderStats();
+    translateRenderedUI();
+  }
+
+  function renderFilter(elId){
+    var el = $(elId);
+    if(!el) return;
+    if(!state.subjects.length){ el.innerHTML = ""; return; }
+    var html = '<span class="lbl">المواد:</span>' +
+      '<button class="fchip" type="button" data-filter="" aria-pressed="' + (subjectFilter ? "false" : "true") + '">الكل</button>';
+    state.subjects.slice().sort(function(a,b){ return (a.name||"").localeCompare(b.name||"","ar"); })
+      .forEach(function(s){
+        var on = subjectFilter === s.id;
+        html += '<button class="fchip" type="button" data-filter="' + esc(s.id) + '" aria-pressed="' + (on ? "true" : "false") +
+          '" style="color:' + esc(s.color || DEFAULT_COLOR) + '">' + esc(s.name) + "</button>";
+      });
+    el.innerHTML = html;
+  }
+
+  function renderTabs(){
+    var open = state.homework.filter(function(h){ return !h.done; }).length;
+    $("hwCount").textContent = open ? "(" + open + ")" : "";
+  }
+
+  function sortedEntriesFor(dayIndex){
+    return state.entries.filter(function(e){ return +e.day === dayIndex; })
+      .sort(function(a,b){
+        var ka = a.noTime ? -1 : mins(a.from), kb = b.noTime ? -1 : mins(b.from);
+        return ka - kb;
+      });
+  }
+
+  function entryRow(e, opts){
+    var color = colorOf(e.subjectId);
+    var sub = subjectById(e.subjectId);
+    var title = e.title || (sub ? sub.name : "بدون عنوان");
+    var meta = [];
+    if(sub && e.title) meta.push(sub.name);
+    if(e.place) meta.push(e.place);
+    if(e.note) meta.push(e.note);
+    var flag = opts && opts.flag ? '<span class="flag">' + esc(opts.flag) + "</span>" : "";
+    var cls = "row" + (opts && opts.now ? " is-now" : "") + (opts && opts.past ? " is-past" : "");
+    return '<div class="' + cls + '">' +
+             '<span class="when">' + (e.noTime ? "طول<br>اليوم" : esc(fmtTime(e.from)) + (e.to ? "<br>" + esc(fmtTime(e.to)) : "")) + "</span>" +
+             '<span class="bar" style="background:' + esc(color) + '"></span>' +
+             '<button class="what" type="button" data-edit-entry="' + esc(e.id) + '"><strong>' + esc(title) + "</strong>" +
+               (meta.length ? "<span>" + esc(meta.join(" · ")) + "</span>" : "") +
+             "</button>" +
+             '<span class="tail">' + flag + linkBtn(e.link) + "</span>" +
+           "</div>";
+  }
+
+  function renderToday(){
+    var now = new Date();
+    var idx = todayIdx();
+    $("todayName").textContent = DAYS[idx];
+    $("todayDate").textContent = fmtDate(now) + " " + now.getFullYear();
+
+    var list = sortedEntriesFor(idx);
+    var nowM = now.getHours() * 60 + now.getMinutes();
+    var html = "", nextFound = false;
+    countdownState = null;
+    if(!list.length){
+      html = '<div class="empty">اليوم لسه فاضي.<br><button class="add" type="button" data-add="entry">ضيف أول درس أو ميعاد</button></div>';
+      $("todayPulse").hidden = true;
+    } else {
+      var current = null;
+      list.forEach(function(e){
+        if(e.noTime){
+          html += entryRow(e, { now:false, past:false, flag:"" });
+          return;
+        }
+        var s = mins(e.from), en = e.to ? mins(e.to) : s + 45;
+        var isNow = nowM >= s && nowM < en;
+        var past = nowM >= en;
+        var flag = "";
+        if(isNow){ flag = "دلوقتي"; current = e; }
+        else if(!past && !nextFound){ flag = "الجاي"; nextFound = true; }
+        html += entryRow(e, { now:isNow, past:past, flag:flag });
+      });
+      var pulse = $("todayPulse");
+      var dayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+      if(current){
+        var sub = subjectById(current.subjectId);
+        var en = current.to ? mins(current.to) : mins(current.from) + 45;
+        $("pulseText").textContent = "دلوقتي: " + (current.title || (sub ? sub.name : "حصة")) + " — باقي ";
+        countdownState = { target: dayStart + en * 60000, key: "now:" + current.id };
+        pulse.hidden = false;
+      } else {
+        var upcoming = list.filter(function(e){ return !e.noTime && mins(e.from) > nowM; });
+        if(upcoming.length){
+          var nx = upcoming[0], nsub = subjectById(nx.subjectId);
+          $("pulseText").textContent = "الجاي: " + (nx.title || (nsub ? nsub.name : "حصة")) + " بعد ";
+          countdownState = { target: dayStart + mins(nx.from) * 60000, key: "next:" + nx.id };
+          pulse.hidden = false;
+        } else { pulse.hidden = true; }
+      }
+    }
+    tickCountdown();
+    $("todayEntries").innerHTML = list.length ? '<div class="panel">' + html + "</div>" : html;
+
+    // homework due within a week or overdue
+    var soon = state.homework.filter(function(h){
+      if(h.done) return false;
+      var d = parseYmd(h.due);
+      if(!d) return true;
+      return dayDiff(now, d) <= 7;
+    }).sort(sortHw);
+    $("todayHw").innerHTML = soon.length
+      ? '<div class="panel">' + soon.map(hwRow).join("") + "</div>"
+      : '<div class="empty">مفيش واجب قريب.<br><button class="add" type="button" data-add="hw">ضيف واجب</button></div>';
+
+    // خلاصة اليوم
+    var left = list.filter(function(e){
+      if(e.noTime) return true;
+      var en = e.to ? mins(e.to) : mins(e.from) + 45;
+      return nowM < en;
+    }).length;
+    var dueToday = state.homework.filter(function(h){
+      if(h.done) return false;
+      var d = parseYmd(h.due);
+      return d && dayDiff(now, d) === 0;
+    }).length;
+    var bits = [];
+    if(list.length) bits.push(countWord(list.length, "حصة واحدة", "حصتين", "حصص", "حصة"));
+    if(list.length && left) bits.push("فاضل " + left);
+    if(list.length && !left) bits.push("خلص الجدول");
+    if(dueToday) bits.push(countWord(dueToday, "واجب تسليمه النهاردة", "واجبين تسليمهم النهاردة", "واجبات تسليمهم النهاردة", "واجب تسليمه النهاردة"));
+    $("todaySummary").textContent = bits.join(" · ");
+  }
+
+  function countWord(n, one, two, few, many){
+    if(n === 1) return one;
+    if(n === 2) return two;
+    if(n <= 10) return n + " " + few;
+    return n + " " + many;
+  }
+
+  function sortHw(a,b){
+    var da = parseYmd(a.due), dbb = parseYmd(b.due);
+    if(!da && !dbb) return 0;
+    if(!da) return 1;
+    if(!dbb) return -1;
+    return da - dbb;
+  }
+
+  function dueInfo(h){
+    var d = parseYmd(h.due);
+    if(!d) return { text:"من غير ميعاد", tone:"" };
+    var diff = dayDiff(new Date(), d);
+    if(diff < 0) return { text:"متأخر " + arabicDays(Math.abs(diff)), tone:"late" };
+    if(diff === 0) return { text:"النهاردة", tone:"now" };
+    if(diff === 1) return { text:"بكرة", tone:"soon" };
+    if(diff <= 6) return { text:"يوم " + DAYS[idxOfDate(d)], tone:"soon" };
+    return { text:fmtDate(d), tone:"" };
+  }
+
+  function hwRow(h){
+    var sub = subjectById(h.subjectId);
+    var info = h.done ? { text:"خلصت", tone:"" } : dueInfo(h);
+    var meta = [];
+    if(h.note) meta.push(h.note);
+    return '<div class="hw' + (h.done ? " done" : "") + '">' +
+      '<input class="tick" type="checkbox" ' + (h.done ? "checked" : "") +
+        ' data-toggle-hw="' + esc(h.id) + '" aria-label="خلصت">' +
+      '<button class="hw__body" type="button" data-edit-hw="' + esc(h.id) + '">' +
+        "<strong>" +
+          (sub ? '<span class="chip" style="color:' + esc(sub.color || DEFAULT_COLOR) + '">' + esc(sub.name) + "</span>" : "") +
+          esc(h.title || "واجب") +
+        "</strong>" +
+        (meta.length ? "<span>" + esc(meta.join(" · ")) + "</span>" : "") +
+      "</button>" +
+      '<span class="tail"><span class="due ' + info.tone + '">' + esc(info.text) + "</span>" + linkBtn(h.link) + "</span>" +
+    "</div>";
+  }
+
+  function renderWeek(){
+    var ws = startOfWeek();
+    $("weekRange").textContent = fmtDate(ws) + " – " + fmtDate(addDays(ws,6));
+    renderFilter("weekFilter");
+    var ti = todayIdx();
+    var html = "";
+    for(var i=0;i<7;i++){
+      var date = addDays(ws, i);
+      var list = sortedEntriesFor(i).filter(function(e){
+        return !subjectFilter || e.subjectId === subjectFilter;
+      });
+      html += '<div class="day' + (i === ti ? " today" : "") + '">' +
+        '<div class="day__head"><b>' + DAYS[i] + "</b><em>" + date.getDate() + "/" + (date.getMonth()+1) + "</em></div>";
+      list.forEach(function(e){
+        var sub = subjectById(e.subjectId);
+        var title = e.title || (sub ? sub.name : "بدون عنوان");
+        var line = e.noTime ? "طول اليوم" : (fmtTime(e.from) + (e.to ? " – " + fmtTime(e.to) : ""));
+        if(e.place) line += " · " + e.place;
+        html += '<div class="slot" style="border-color:' + esc(colorOf(e.subjectId)) + '">' +
+          '<button class="slot__main" type="button" data-edit-entry="' + esc(e.id) + '">' +
+          "<b>" + esc(title) + "</b><i>" + esc(line) + "</i></button>" + linkBtn(e.link) + "</div>";
+      });
+      html += '<button class="day__add" type="button" data-add-day="' + i + '">+</button></div>';
+    }
+    $("weekGrid").innerHTML = html;
+  }
+
+  function renderHomework(){
+    var open = state.homework.filter(function(h){ return !h.done; }).sort(sortHw);
+    var done = state.homework.filter(function(h){ return h.done; }).sort(sortHw);
+    var now = new Date();
+    var late = [], week = [], later = [];
+    open.forEach(function(h){
+      var d = parseYmd(h.due);
+      if(!d){ later.push(h); return; }
+      var diff = dayDiff(now, d);
+      if(diff < 0) late.push(h);
+      else if(diff <= 7) week.push(h);
+      else later.push(h);
+    });
+    var html = "";
+    function group(title, arr){
+      if(!arr.length) return "";
+      return '<div class="group-title">' + title + " (" + arr.length + ")</div>" +
+        '<div class="panel">' + arr.map(hwRow).join("") + "</div>";
+    }
+    html += group("متأخرة", late);
+    html += group("الأسبوع ده", week);
+    html += group("بعدين", later);
+    html += group("خلصت", done);
+    if(!html) html = '<div class="empty">مفيش واجبات متسجلة.<br><button class="add" type="button" data-add="hw">ضيف أول واجب</button></div>';
+    $("hwList").innerHTML = html;
+  }
+
+  function examTargetMs(x){
+    var d = parseYmd(x.date);
+    if(!d) return null;
+    if(x.time){
+      var p = String(x.time).split(":");
+      d.setHours(+p[0] || 0, +p[1] || 0, 0, 0);
+    } else {
+      d.setHours(23, 59, 0, 0);
+    }
+    return d.getTime();
+  }
+  function sortExam(a, b){
+    var ta = examTargetMs(a), tb = examTargetMs(b);
+    if(ta === null && tb === null) return 0;
+    if(ta === null) return 1;
+    if(tb === null) return -1;
+    return ta - tb;
+  }
+  function examRow(x){
+    var sub = subjectById(x.subjectId);
+    var info = dueInfo({ due: x.date });
+    var meta = [];
+    if(sub) meta.push(sub.name);
+    if(x.time) meta.push(fmtTime(x.time));
+    if(x.place) meta.push(x.place);
+    if(x.note) meta.push(x.note);
+    return '<button class="exrow" type="button" data-edit-exam="' + esc(x.id) + '">' +
+      '<span class="bar" style="background:' + esc(sub && sub.color ? sub.color : DEFAULT_COLOR) + '"></span>' +
+      '<span><strong>' + esc(x.title || (sub ? sub.name : "امتحان")) + '</strong>' +
+        (meta.length ? '<span class="meta">' + esc(meta.join(" · ")) + '</span>' : '') +
+      '</span>' +
+      '<span class="due ' + info.tone + '">' + esc(info.text) + '</span>' +
+    '</button>';
+  }
+
+  function renderExams(){
+    var now = new Date();
+    var list = state.exams.slice().sort(sortExam);
+    var late = [], week = [], later = [];
+    list.forEach(function(x){
+      var d = parseYmd(x.date);
+      if(!d){ later.push(x); return; }
+      var diff = dayDiff(now, d);
+      if(diff < 0) late.push(x);
+      else if(diff <= 7) week.push(x);
+      else later.push(x);
+    });
+    var html = "";
+    function group(title, arr){
+      if(!arr.length) return "";
+      return '<div class="group-title">' + title + " (" + arr.length + ")</div>" +
+        '<div class="panel">' + arr.map(examRow).join("") + "</div>";
+    }
+    html += group("فاتت", late);
+    html += group("الأسبوع ده", week);
+    html += group("بعدين", later);
+    if(!html) html = '<div class="empty">مفيش امتحانات متسجلة.<br><button class="add" type="button" data-add="exam">ضيف أول امتحان</button></div>';
+    $("examList").innerHTML = html;
+
+    var upcoming = list.filter(function(x){
+      var t = examTargetMs(x);
+      return t !== null && t >= now.getTime();
+    });
+    var hero = $("examHero");
+    if(upcoming.length){
+      var x = upcoming[0];
+      var sub = subjectById(x.subjectId);
+      $("examHeroLabel").textContent = "أقرب امتحان" + (sub ? " — " + sub.name : "");
+      $("examHeroTitle").textContent = x.title || (sub ? sub.name : "امتحان");
+      examCountdownState = { target: examTargetMs(x), id: x.id };
+      hero.hidden = false;
+    } else {
+      examCountdownState = null;
+      hero.hidden = true;
+    }
+    tickExamHero();
+  }
+
+  function renderLinks(){
+    renderFilter("linksFilter");
+    var list = state.links.filter(function(l){
+      return !subjectFilter || l.subjectId === subjectFilter;
+    }).sort(function(a,b){
+      var sa = subjectById(a.subjectId), sb = subjectById(b.subjectId);
+      var na = sa ? sa.name : "ﻯ", nb = sb ? sb.name : "ﻯ";
+      if(na !== nb) return na.localeCompare(nb, "ar");
+      return (a.title||"").localeCompare(b.title||"","ar");
+    });
+    if(!list.length){
+      $("linksList").innerHTML = '<div class="empty">' +
+        (subjectFilter ? "مفيش شروحات محفوظة للمادة دي." : "احفظ هنا شروح اليوتيوب أو أي منصة، وبعدين تقدر تربطها بأي حصة في الجدول.") +
+        '<br><button class="add" type="button" data-add="link">ضيف لينك</button></div>';
+      return;
+    }
+    var html = '<div class="links">';
+    list.forEach(function(l){
+      var sub = subjectById(l.subjectId);
+      var meta = [];
+      if(sub) meta.push(sub.name);
+      meta.push(hostOf(l.url));
+      if(l.note) meta.push(l.note);
+      html += '<div class="linkitem">' +
+        '<span class="swatch" style="background:' + esc(sub && sub.color ? sub.color : DEFAULT_COLOR) + '"></span>' +
+        '<button class="linkitem__body" type="button" data-edit-link="' + esc(l.id) + '">' +
+          "<strong>" + esc(l.title || hostOf(l.url)) + "</strong><span>" + esc(meta.join(" · ")) + "</span>" +
+        "</button>" +
+        '<span class="tail">' + linkBtn(l.url, lang === "en" ? "Open" : "افتح") + "</span>" +
+      "</div>";
+    });
+    html += "</div>";
+    $("linksList").innerHTML = html;
+  }
+
+  function relativeDay(ms){
+    if(!ms) return "";
+    var d = new Date(ms);
+    var diff = dayDiff(new Date(), d);
+    if(diff === 0) return "النهاردة";
+    if(diff === 1) return "إمبارح";
+    return fmtDate(d);
+  }
+
+  function renderNotes(){
+    renderFilter("notesFilter");
+    var list = state.notes.filter(function(n){
+      return !subjectFilter || n.subjectId === subjectFilter;
+    }).sort(function(a,b){ return (b.updatedAt||0) - (a.updatedAt||0); });
+    if(!list.length){
+      $("notesList").innerHTML = '<div class="empty">' +
+        (subjectFilter ? "مفيش نوتات للمادة دي." : "لسه مفيش نوتات. دوّن أول حاجة عايز تفتكرها.") +
+        '<br><button class="add" type="button" data-add="note">ضيف نوتة</button></div>';
+      return;
+    }
+    var html = '<div class="notes">';
+    list.forEach(function(n){
+      var sub = subjectById(n.subjectId);
+      var meta = [relativeDay(n.updatedAt)];
+      if(sub) meta.push(sub.name);
+      var body = n.body || "";
+      var heading = n.title;
+      var preview = body;
+      if(!heading){
+        var nl = body.indexOf("\n");
+        heading = (nl === -1 ? body : body.slice(0, nl)).trim() || "بدون عنوان";
+        preview = nl === -1 ? "" : body.slice(nl + 1);
+      }
+      html += '<button class="notecard" type="button" data-edit-note="' + esc(n.id) + '">' +
+        '<span class="bar" style="background:' + esc(sub && sub.color ? sub.color : DEFAULT_COLOR) + '"></span>' +
+        "<strong>" + esc(heading) + "</strong>" +
+        (preview.trim() ? "<p>" + esc(preview) + "</p>" : "") +
+        '<span class="meta">' + esc(meta.filter(Boolean).join(" · ")) + "</span>" +
+      "</button>";
+    });
+    html += "</div>";
+    $("notesList").innerHTML = html;
+  }
+
+  var LS_STATS = "kashkool.study.stats.v1";
+  function loadStudyStats(){
+    try{ var x=JSON.parse(localStorage.getItem(LS_STATS)||"[]"); return Array.isArray(x)?x:[]; }catch(e){ return []; }
+  }
+  function logStudySession(minutes){
+    var list=loadStudyStats(); list.push({at:Date.now(),minutes:Math.max(1,Math.round(minutes||0))});
+    if(list.length>500) list=list.slice(-500);
+    try{ localStorage.setItem(LS_STATS,JSON.stringify(list)); }catch(e){}
+  }
+  function renderStats(){
+    var sessions=loadStudyStats(), ws=startOfWeek(), days=[0,0,0,0,0,0,0];
+    sessions.forEach(function(x){ var d=new Date(x.at); var diff=dayDiff(ws,d); if(diff>=0&&diff<7) days[diff]+=+x.minutes||0; });
+    var total=days.reduce(function(a,b){return a+b;},0), weekSessions=sessions.filter(function(x){return x.at>=ws.getTime();}).length;
+    var done=state.homework.filter(function(h){return h.done;}).length, all=state.homework.length, rate=all?Math.round(done/all*100):0;
+    $("statMinutes").textContent=total; $("statSessions").textContent=weekSessions; $("statHwRate").textContent=rate+"%";
+    $("hwDonut").style.background="conic-gradient(var(--ok) "+rate+"%,var(--line-soft) 0)";
+    $("hwDonutLabel").innerHTML=rate+'%<small>'+(lang==="en"?"completed":"مكتمل")+'</small>';
+    drawStudyChart(days);
+    var rows=state.subjects.map(function(sub){
+      var lessons=state.entries.filter(function(e){return e.subjectId===sub.id;}).length;
+      var hw=state.homework.filter(function(h){return h.subjectId===sub.id&&!h.done;}).length;
+      return {name:sub.name,color:sub.color||DEFAULT_COLOR,value:lessons+hw,lessons:lessons,hw:hw};
+    }).sort(function(a,b){return b.value-a.value;});
+    var max=Math.max.apply(null,rows.map(function(r){return r.value;}).concat([1]));
+    $("subjectBars").innerHTML=rows.length?rows.map(function(r){return '<div class="subjectBar"><span>'+esc(r.name)+'</span><i><b style="width:'+(r.value/max*100)+'%;background:'+esc(r.color)+'"></b></i><em>'+r.value+'</em></div>';}).join(""):'<div class="empty">'+(lang==="en"?"Add subjects to see their workload.":"ضيف مواد علشان يظهر توزيع الحِمل.")+'</div>';
+  }
+  function drawStudyChart(values){
+    var c=$("studyChart"), rect=c.getBoundingClientRect(), dpr=window.devicePixelRatio||1;
+    c.width=Math.max(1,Math.round(rect.width*dpr)); c.height=Math.max(1,Math.round(rect.height*dpr));
+    var ctx=c.getContext("2d"); ctx.scale(dpr,dpr); var w=rect.width,h=rect.height,pad={l:34,r:12,t:16,b:34};
+    var max=Math.max.apply(null,values.concat([30])); max=Math.ceil(max/30)*30;
+    var css=getComputedStyle(document.documentElement), line=css.getPropertyValue("--line").trim(), ink=css.getPropertyValue("--ink-faint").trim(), mark=css.getPropertyValue("--mark").trim();
+    ctx.font='12px "IBM Plex Sans Arabic", sans-serif';ctx.textAlign="center";ctx.textBaseline="top";
+    ctx.strokeStyle=line;ctx.fillStyle=ink;ctx.lineWidth=1;
+    [0,.5,1].forEach(function(t){var y=pad.t+(h-pad.t-pad.b)*(1-t);ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(w-pad.r,y);ctx.stroke();ctx.textAlign="right";ctx.fillText(Math.round(max*t),pad.l-7,y-7);});
+    var inner=w-pad.l-pad.r,gap=9,bw=Math.max(8,(inner-gap*8)/7);
+    values.forEach(function(v,i){var bh=(h-pad.t-pad.b)*(v/max),x=pad.l+gap+i*(bw+gap),y=h-pad.b-bh;ctx.fillStyle=mark;ctx.fillRect(x,y,bw,bh);ctx.fillStyle=ink;ctx.textAlign="center";ctx.fillText(DAYS[i].slice(0,3),x+bw/2,h-pad.b+8);if(v){ctx.fillText(v,x+bw/2,Math.max(0,y-17));}});
+  }
+  window.addEventListener("resize",function(){if(activeView==="stats") drawStudyChart((function(){var a=[0,0,0,0,0,0,0],ws=startOfWeek();loadStudyStats().forEach(function(x){var d=dayDiff(ws,new Date(x.at));if(d>=0&&d<7)a[d]+=+x.minutes||0;});return a;})());});
+  function renderSubjects(){
+    if(!state.subjects.length){
+      $("subList").innerHTML = '<div class="empty">ضيف موادك الأول، وبعدين لوّن بيها الجدول والواجبات.<br><button class="add" type="button" data-add="subject">ضيف مادة</button></div>';
+      return;
+    }
+    var html = '<div class="subs">';
+    state.subjects.slice().sort(function(a,b){ return (a.name||"").localeCompare(b.name||"","ar"); }).forEach(function(s){
+      var count = state.entries.filter(function(e){ return e.subjectId === s.id; }).length;
+      var hwOpen = state.homework.filter(function(h){ return h.subjectId === s.id && !h.done; }).length;
+      var meta = [];
+      if(s.teacher) meta.push(s.teacher);
+      meta.push(count ? count + " حصة في الأسبوع" : "مش في الجدول");
+      if(hwOpen) meta.push(hwOpen + " واجب مفتوح");
+      html += '<button class="sub" type="button" data-edit-sub="' + esc(s.id) + '">' +
+        '<span class="swatch" style="background:' + esc(s.color || DEFAULT_COLOR) + '"></span>' +
+        "<span><b>" + esc(s.name) + "</b><span>" + esc(meta.join(" · ")) + "</span></span></button>";
+    });
+    html += "</div>";
+    $("subList").innerHTML = html;
+  }
+
+  /* ---------------- dialogs ---------------- */
+  function fillSubjectSelect(sel, value){
+    var opts = ['<option value="">' + esc(tr("noSubject")) + '</option>'];
+    state.subjects.slice().sort(function(a,b){ return (a.name||"").localeCompare(b.name||"","ar"); })
+      .forEach(function(s){
+        opts.push('<option value="' + esc(s.id) + '">' + esc(s.name) + "</option>");
+      });
+    sel.innerHTML = opts.join("");
+    sel.value = value || "";
+  }
+  function paintDays(){
+    $("e_days").innerHTML = DAYS.map(function(d,i){
+      return '<button type="button" data-day="' + i + '" aria-pressed="' +
+        (pickedDays.indexOf(i) >= 0 ? "true" : "false") + '">' + d + "</button>";
+    }).join("");
+  }
+
+  function syncTimePairVisibility(){
+    $("e_timePair").style.display = $("e_notime").checked ? "none" : "grid";
+  }
+
+  function openEntry(id, dayPreset){
+    var e = null;
+    if(id){ e = state.entries.filter(function(x){ return x.id === id; })[0] || null; }
+    editing.entry = e ? e.id : null;
+    $("entryTitle").textContent = e ? "تعديل" : "درس أو ميعاد جديد";
+    $("e_title").value = e ? (e.title || "") : "";
+    fillSubjectSelect($("e_subject"), e ? e.subjectId : "");
+    pickedDays = [ e ? +e.day : (dayPreset == null ? todayIdx() : dayPreset) ];
+    paintDays();
+    $("e_dayHint").textContent = e ? "التعديل بيتطبق على اليوم ده؛ لو ضفت يوم زيادة هيتحفظ كنسخة جديدة" : "تقدر تختار أكتر من يوم مرة واحدة";
+    $("e_from").value = e ? (e.from || "08:00") : "08:00";
+    $("e_to").value   = e ? (e.to   || "09:00") : "09:00";
+    $("e_notime").checked = e ? !!e.noTime : false;
+    syncTimePairVisibility();
+    $("e_place").value = e ? (e.place || "") : "";
+    $("e_link").value  = e ? (e.link  || "") : "";
+    $("e_note").value  = e ? (e.note  || "") : "";
+    fillLinkPicker();
+    $("e_del").hidden = !e;
+    applyLanguage();
+    $("dlgEntry").showModal();
+    setTimeout(function(){ $("e_title").focus(); }, 30);
+  }
+
+  function saveEntry(){
+    var title = $("e_title").value.trim();
+    var subjectId = $("e_subject").value;
+    if(!title && !subjectId){ toast("اكتب عنوان أو اختار مادة."); return; }
+    var noTime = $("e_notime").checked;
+    var from = "", to = "";
+    if(!noTime){
+      from = $("e_from").value || "08:00";
+      to = $("e_to").value || "";
+      if(to && mins(to) <= mins(from)){ toast("ميعاد النهاية لازم بعد البداية."); return; }
+    }
+    var days = pickedDays.slice().sort(function(a,b){ return a-b; });
+    if(!days.length){ toast("اختار يوم على الأقل."); return; }
+    var base = {
+      title: title,
+      subjectId: subjectId,
+      from: from,
+      to: to,
+      noTime: noTime,
+      place: $("e_place").value.trim(),
+      link: normUrl($("e_link").value),
+      note: $("e_note").value.trim()
+    };
+    if(editing.entry){
+      put("entries", editing.entry, Object.assign({}, base, { day: days[0] }));
+      days.slice(1).forEach(function(d){ put("entries", null, Object.assign({}, base, { day:d })); });
+    } else {
+      days.forEach(function(d){ put("entries", null, Object.assign({}, base, { day:d })); });
+      if(days.length > 1) toast("اتضافت في " + days.length + " أيام.");
+    }
+    $("dlgEntry").close();
+  }
+
+  function openHw(id){
+    var h = null;
+    if(id){ h = state.homework.filter(function(x){ return x.id === id; })[0] || null; }
+    editing.hw = h ? h.id : null;
+    $("hwTitle").textContent = h ? "تعديل الواجب" : "واجب جديد";
+    $("h_title").value = h ? (h.title || "") : "";
+    fillSubjectSelect($("h_subject"), h ? h.subjectId : "");
+    $("h_due").value = h ? (h.due || "") : ymd(new Date());
+    $("h_link").value = h ? (h.link || "") : "";
+    $("h_note").value = h ? (h.note || "") : "";
+    $("h_del").hidden = !h;
+    applyLanguage();
+    $("dlgHw").showModal();
+    setTimeout(function(){ $("h_title").focus(); }, 30);
+  }
+
+  function saveHw(){
+    var title = $("h_title").value.trim();
+    if(!title){ toast("اكتب الواجب الأول."); return; }
+    var prev = editing.hw ? state.homework.filter(function(x){ return x.id === editing.hw; })[0] : null;
+    put("homework", editing.hw, {
+      title: title,
+      subjectId: $("h_subject").value,
+      due: $("h_due").value,
+      link: normUrl($("h_link").value),
+      note: $("h_note").value.trim(),
+      done: prev ? !!prev.done : false
+    });
+    $("dlgHw").close();
+  }
+
+  function fillLinkPicker(){
+    var sel = $("e_linkpick");
+    var opts = ['<option value="">' + esc(tr("chooseSavedLink")) + '</option>'];
+    state.links.forEach(function(l){
+      var sub = subjectById(l.subjectId);
+      var label = (l.title || hostOf(l.url)) + (sub ? " — " + sub.name : "");
+      opts.push('<option value="' + esc(l.url) + '">' + esc(label) + "</option>");
+    });
+    sel.innerHTML = opts.join("");
+    sel.value = "";
+    sel.hidden = !state.links.length;
+  }
+
+  function openLink(id){
+    var l = null;
+    if(id){ l = state.links.filter(function(x){ return x.id === id; })[0] || null; }
+    editing.link = l ? l.id : null;
+    $("linkTitle").textContent = l ? "تعديل اللينك" : "لينك جديد";
+    $("l_title").value = l ? (l.title || "") : "";
+    $("l_url").value = l ? (l.url || "") : "";
+    fillSubjectSelect($("l_subject"), l ? l.subjectId : (subjectFilter || ""));
+    $("l_note").value = l ? (l.note || "") : "";
+    $("l_del").hidden = !l;
+    applyLanguage();
+    $("dlgLink").showModal();
+    setTimeout(function(){ $("l_title").focus(); }, 30);
+  }
+
+  function saveLink(){
+    var url = normUrl($("l_url").value);
+    if(!url){ toast("حط الرابط الأول (لازم يبدأ بـ http)."); return; }
+    put("links", editing.link, {
+      title: $("l_title").value.trim() || hostOf(url),
+      url: url,
+      subjectId: $("l_subject").value,
+      note: $("l_note").value.trim()
+    });
+    $("dlgLink").close();
+  }
+
+  function openNote(id){
+    var n = null;
+    if(id){ n = state.notes.filter(function(x){ return x.id === id; })[0] || null; }
+    editing.note = n ? n.id : null;
+    $("noteTitle").textContent = n ? "تعديل النوتة" : "نوتة جديدة";
+    $("n_title").value = n ? (n.title || "") : "";
+    fillSubjectSelect($("n_subject"), n ? n.subjectId : (subjectFilter || ""));
+    $("n_body").value = n ? (n.body || "") : "";
+    $("n_del").hidden = !n;
+    applyLanguage();
+    $("dlgNote").showModal();
+    setTimeout(function(){ $("n_title").focus(); }, 30);
+  }
+
+  function saveNote(){
+    var title = $("n_title").value.trim();
+    var body = $("n_body").value.trim();
+    if(!title && !body){ toast("اكتب حاجة في النوتة الأول."); return; }
+    put("notes", editing.note, {
+      title: title,
+      subjectId: $("n_subject").value,
+      body: body,
+      updatedAt: Date.now()
+    });
+    $("dlgNote").close();
+  }
+
+  function openExam(id){
+    var x = null;
+    if(id){ x = state.exams.filter(function(e){ return e.id === id; })[0] || null; }
+    editing.exam = x ? x.id : null;
+    $("examTitle").textContent = x ? "تعديل الامتحان" : "امتحان جديد";
+    $("x_title").value = x ? (x.title || "") : "";
+    fillSubjectSelect($("x_subject"), x ? x.subjectId : "");
+    $("x_date").value = x ? (x.date || "") : ymd(new Date());
+    $("x_time").value = x ? (x.time || "") : "";
+    $("x_place").value = x ? (x.place || "") : "";
+    $("x_note").value = x ? (x.note || "") : "";
+    $("x_del").hidden = !x;
+    applyLanguage();
+    $("dlgExam").showModal();
+    setTimeout(function(){ $("x_title").focus(); }, 30);
+  }
+
+  function saveExam(){
+    var date = $("x_date").value;
+    if(!date){ toast("حدد تاريخ الامتحان الأول."); return; }
+    put("exams", editing.exam, {
+      title: $("x_title").value.trim(),
+      subjectId: $("x_subject").value,
+      date: date,
+      time: $("x_time").value || "",
+      place: $("x_place").value.trim(),
+      note: $("x_note").value.trim()
+    });
+    $("dlgExam").close();
+  }
+
+  function openSearch(){
+    $("sq").value = "";
+    $("searchClear").hidden = true;
+    $("searchMeta").textContent = "";
+    $("searchResults").innerHTML = '<div class="empty">' + (lang === "en" ? "Type to search." : "اكتب عشان تدوّر.") + "</div>";
+    $("dlgSearch").showModal();
+    setTimeout(function(){ $("sq").focus(); }, 30);
+  }
+
+  function updateSearchMeta(count, hasQuery){
+    var meta = $("searchMeta");
+    if(!meta) return;
+    if(!hasQuery){ meta.textContent = ""; return; }
+    meta.textContent = lang === "en"
+      ? count + " " + (count === 1 ? "result" : "results")
+      : count + " " + tr("results");
+  }
+
+  function runSearch(){
+    var q = $("sq").value.trim().toLowerCase();
+    var box = $("searchResults");
+    $("searchClear").hidden = !q;
+    if(!q){
+      updateSearchMeta(0, false);
+      box.innerHTML = '<div class="empty">' + (lang === "en" ? "Type to search." : "اكتب عشان تدوّر.") + "</div>";
+      return;
+    }
+    var terms = q.split(/\s+/).filter(Boolean);
+    function has(text){
+      var value = String(text || "").toLowerCase();
+      return terms.every(function(term){ return value.indexOf(term) !== -1; });
+    }
+    var out = [];
+    state.entries.forEach(function(e){
+      var sub = subjectById(e.subjectId);
+      if(has([e.title, e.place, e.note, e.link, sub ? sub.name : ""].join(" "))){
+        out.push({ type:"entry", id:e.id, tag:"جدول", label: e.title || (sub ? sub.name : "حصة"), extra: DAYS[e.day] + (e.noTime ? " — طول اليوم" : " " + fmtTime(e.from)) });
+      }
+    });
+    state.homework.forEach(function(h){
+      var sub = subjectById(h.subjectId);
+      if(has([h.title, h.note, h.link, sub ? sub.name : ""].join(" "))){
+        out.push({ type:"hw", id:h.id, tag:"واجب", label: h.title || "واجب", extra: h.due ? fmtDate(parseYmd(h.due)) : "" });
+      }
+    });
+    state.exams.forEach(function(x){
+      var sub = subjectById(x.subjectId);
+      if(has([x.title, x.note, x.place, x.date, x.time, sub ? sub.name : ""].join(" "))){
+        out.push({ type:"exam", id:x.id, tag:"امتحان", label: x.title || (sub ? sub.name : "امتحان"), extra: x.date ? fmtDate(parseYmd(x.date)) : "" });
+      }
+    });
+    state.links.forEach(function(l){
+      var sub = subjectById(l.subjectId);
+      if(has([l.title, l.note, l.url, hostOf(l.url), sub ? sub.name : ""].join(" "))){
+        out.push({ type:"link", id:l.id, tag:"شرح", label: l.title || hostOf(l.url), extra: hostOf(l.url) });
+      }
+    });
+    state.notes.forEach(function(n){
+      var sub = subjectById(n.subjectId);
+      if(has([n.title, n.body, sub ? sub.name : ""].join(" "))){
+        out.push({ type:"note", id:n.id, tag:"نوتة", label: n.title || (n.body || "").split("\n")[0] || "نوتة", extra: relativeDay(n.updatedAt) });
+      }
+    });
+    state.subjects.forEach(function(s){
+      if(has([s.name, s.teacher].join(" "))){
+        out.push({ type:"subject", id:s.id, tag:"مادة", label: s.name, extra: s.teacher || "" });
+      }
+    });
+    updateSearchMeta(out.length, true);
+    if(!out.length){ box.innerHTML = '<div class="empty">' + (lang === "en" ? "No results." : "مفيش نتايج.") + "</div>"; return; }
+    box.innerHTML = out.map(function(r){
+      return '<button class="sresult" type="button" data-open-type="' + esc(r.type) + '" data-open-id="' + esc(r.id) + '">' +
+        '<span class="tag">' + esc(r.tag) + '</span>' +
+        '<b>' + esc(r.label) + '</b>' +
+        (r.extra ? '<span class="x">' + esc(r.extra) + '</span>' : '') +
+      '</button>';
+    }).join("");
+    translateRenderedUI();
+  }
+
+  function openSearchResult(type, id){
+    $("dlgSearch").close();
+    if(type === "entry") openEntry(id);
+    else if(type === "hw") openHw(id);
+    else if(type === "exam") openExam(id);
+    else if(type === "link") openLink(id);
+    else if(type === "note") openNote(id);
+    else if(type === "subject") openSub(id);
+  }
+
+  function openSub(id){
+    var s = null;
+    if(id){ s = subjectById(id); }
+    editing.sub = s ? s.id : null;
+    $("subTitle").textContent = s ? "تعديل المادة" : "مادة جديدة";
+    $("s_name").value = s ? (s.name || "") : "";
+    $("s_teacher").value = s ? (s.teacher || "") : "";
+    pickedColor = s && s.color ? s.color : PALETTE[state.subjects.length % PALETTE.length];
+    paintSwatches();
+    $("s_del").hidden = !s;
+    applyLanguage();
+    $("dlgSub").showModal();
+    setTimeout(function(){ $("s_name").focus(); }, 30);
+  }
+
+  function paintSwatches(){
+    $("s_colors").innerHTML = PALETTE.map(function(c){
+      return '<button type="button" style="background:' + c + '" data-color="' + c + '" aria-label="' + esc(lang === "en" ? "Color" : "لون") + '" aria-pressed="' +
+        (c === pickedColor ? "true" : "false") + '"></button>';
+    }).join("");
+  }
+
+  function saveSub(){
+    var name = $("s_name").value.trim();
+    if(!name){ toast("اكتب اسم المادة."); return; }
+    put("subjects", editing.sub, {
+      name: name,
+      color: pickedColor,
+      teacher: $("s_teacher").value.trim()
+    });
+    $("dlgSub").close();
+  }
+
+  /* ---------------- events ---------------- */
+  document.addEventListener("click", function(ev){
+    var t = ev.target.closest ? ev.target.closest("[data-add],[data-add-day],[data-edit-entry],[data-edit-hw],[data-edit-sub],[data-edit-link],[data-edit-note],[data-edit-exam],[data-open-type],[data-filter],[data-close],[data-color],[data-day],[data-search-clear],.tab") : null;
+    if(!t) return;
+
+    if(t.dataset.day !== undefined){
+      var d = +t.dataset.day, at = pickedDays.indexOf(d);
+      if(at >= 0) pickedDays.splice(at,1); else pickedDays.push(d);
+      paintDays();
+      return;
+    }
+    if(t.classList.contains("tab")){
+      activeView = t.dataset.view;
+      Array.prototype.forEach.call(document.querySelectorAll(".tab"), function(b){
+        b.setAttribute("aria-selected", b === t ? "true" : "false");
+      });
+      $("view-today").hidden = activeView !== "today";
+      $("view-week").hidden = activeView !== "week";
+      $("view-hw").hidden = activeView !== "hw";
+      $("view-exams").hidden = activeView !== "exams";
+      $("view-links").hidden = activeView !== "links";
+      $("view-notes").hidden = activeView !== "notes";
+      $("view-pomo").hidden = activeView !== "pomo";
+      $("view-stats").hidden = activeView !== "stats";
+      $("view-subjects").hidden = activeView !== "subjects";
+      render();
+      return;
+    }
+    if(t.dataset.filter !== undefined){ subjectFilter = t.dataset.filter; render(); return; }
+    if(t.dataset.searchClear !== undefined){ $("sq").value = ""; runSearch(); $("sq").focus(); return; }
+    if(t.dataset.close !== undefined){ t.closest("dialog").close(); return; }
+    if(t.dataset.color){ pickedColor = t.dataset.color; paintSwatches(); return; }
+    if(t.dataset.add === "entry"){ openEntry(null, null); return; }
+    if(t.dataset.add === "hw"){ openHw(null); return; }
+    if(t.dataset.add === "subject"){ openSub(null); return; }
+    if(t.dataset.add === "link"){ openLink(null); return; }
+    if(t.dataset.editLink){ openLink(t.dataset.editLink); return; }
+    if(t.dataset.add === "note"){ openNote(null); return; }
+    if(t.dataset.editNote){ openNote(t.dataset.editNote); return; }
+    if(t.dataset.add === "exam"){ openExam(null); return; }
+    if(t.dataset.editExam){ openExam(t.dataset.editExam); return; }
+    if(t.dataset.openType){ openSearchResult(t.dataset.openType, t.dataset.openId); return; }
+    if(t.dataset.addDay !== undefined){ openEntry(null, +t.dataset.addDay); return; }
+    if(t.dataset.editEntry){ openEntry(t.dataset.editEntry); return; }
+    if(t.dataset.editHw){ openHw(t.dataset.editHw); return; }
+    if(t.dataset.editSub){ openSub(t.dataset.editSub); return; }
+  });
+
+  document.addEventListener("change", function(ev){
+    var cb = ev.target;
+    if(cb && cb.dataset && cb.dataset.toggleHw){
+      var h = state.homework.filter(function(x){ return x.id === cb.dataset.toggleHw; })[0];
+      if(!h) return;
+      var body = Object.assign({}, h); delete body.id;
+      body.done = cb.checked;
+      put("homework", h.id, body);
+    }
+  });
+
+  $("e_save").addEventListener("click", saveEntry);
+  $("h_save").addEventListener("click", saveHw);
+  $("s_save").addEventListener("click", saveSub);
+
+  $("l_save").addEventListener("click", saveLink);
+  $("formLink").addEventListener("submit", function(ev){ ev.preventDefault(); saveLink(); });
+  $("n_save").addEventListener("click", saveNote);
+  $("formNote").addEventListener("submit", function(ev){ ev.preventDefault(); saveNote(); });
+  $("n_del").addEventListener("click", function(){
+    if(editing.note && confirmText("تمسح النوتة دي؟", "Delete this note?")){ remove("notes", editing.note); $("dlgNote").close(); }
+  });
+  $("x_save").addEventListener("click", saveExam);
+  $("formExam").addEventListener("submit", function(ev){ ev.preventDefault(); saveExam(); });
+  $("x_del").addEventListener("click", function(){
+    if(editing.exam && confirmText("تمسح الامتحان ده؟", "Delete this exam?")){ remove("exams", editing.exam); $("dlgExam").close(); }
+  });
+  $("searchBtn").addEventListener("click", openSearch);
+  $("sq").addEventListener("input", runSearch);
+  $("l_del").addEventListener("click", function(){
+    if(editing.link && confirmText("تمسح اللينك ده؟", "Delete this resource?")){ remove("links", editing.link); $("dlgLink").close(); }
+  });
+  $("e_linkpick").addEventListener("change", function(){
+    if(this.value){ $("e_link").value = this.value; this.value = ""; toast("اتحط اللينك."); }
+  });
+
+  $("formEntry").addEventListener("submit", function(ev){ ev.preventDefault(); saveEntry(); });
+  $("e_notime").addEventListener("change", syncTimePairVisibility);
+  $("formHw").addEventListener("submit", function(ev){ ev.preventDefault(); saveHw(); });
+  $("formSub").addEventListener("submit", function(ev){ ev.preventDefault(); saveSub(); });
+
+  $("e_del").addEventListener("click", function(){
+    if(editing.entry && confirmText("تمسح الميعاد ده؟", "Delete this lesson or event?")){ remove("entries", editing.entry); $("dlgEntry").close(); }
+  });
+  $("h_del").addEventListener("click", function(){
+    if(editing.hw && confirmText("تمسح الواجب ده؟", "Delete this homework?")){ remove("homework", editing.hw); $("dlgHw").close(); }
+  });
+  $("s_del").addEventListener("click", function(){
+    if(editing.sub && confirmText("تمسح المادة دي؟ الحصص والواجبات هتفضل موجودة من غير لون.", "Delete this subject? Its lessons and homework will stay without a color.")){
+      if(subjectFilter === editing.sub) subjectFilter = "";
+      remove("subjects", editing.sub); $("dlgSub").close();
+    }
+  });
+
+  // theme
+  function applyTheme(mode){
+    if(mode === "dark" || mode === "light"){ document.documentElement.setAttribute("data-theme", mode); }
+    else { document.documentElement.removeAttribute("data-theme"); }
+    var dark = document.documentElement.getAttribute("data-theme") === "dark" ||
+      (!document.documentElement.getAttribute("data-theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    $("themeBtn").textContent = tr(dark ? "light" : "dark");
+  }
+  try{ applyTheme(localStorage.getItem(LS_THEME)); }catch(e){ applyTheme(null); }
+  $("themeBtn").addEventListener("click", function(){
+    var dark = document.documentElement.getAttribute("data-theme") === "dark" ||
+      (!document.documentElement.getAttribute("data-theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    var next = dark ? "light" : "dark";
+    applyTheme(next);
+    try{ localStorage.setItem(LS_THEME, next); }catch(e){}
+  });
+
+  // refresh the "now" marker every minute, tick the live countdown every second
+  setInterval(function(){ if(activeView === "today") renderToday(); }, 60000);
+  setInterval(function(){ if(activeView === "today") tickCountdown(); }, 1000);
+  setInterval(function(){ if(activeView === "exams") tickExamHero(); }, 1000);
+
+  /* ---------------- pomodoro ---------------- */
+  var LS_POMO = "kashkool.pomo.v1";
+  var pomoSettings = { work:25, brk:5, long:15, rounds:4 };
+  try{
+    var savedPomo = JSON.parse(localStorage.getItem(LS_POMO) || "null");
+    if(savedPomo) pomoSettings = Object.assign(pomoSettings, savedPomo);
+  }catch(e){}
+  var pomo = { mode:"work", round:1, remaining: pomoSettings.work * 60, running:false, timerId:null };
+
+  function pomoLabel(mode){
+    return mode === "work" ? tr("study") : (mode === "long" ? tr("longBreak").replace(" (minutes)", "") : tr("shortBreak").replace(" (minutes)", ""));
+  }
+  function pomoDurationSec(mode){
+    var mins = mode === "work" ? pomoSettings.work : (mode === "long" ? pomoSettings.long : pomoSettings.brk);
+    return Math.max(1, mins) * 60;
+  }
+  function fmtMMSS(totalSec){
+    if(totalSec < 0) totalSec = 0;
+    return pad2(Math.floor(totalSec / 60)) + ":" + pad2(totalSec % 60);
+  }
+  var pomoCtx = null;
+  function ensureAudioCtx(){
+    if(!pomoCtx){
+      try{ var Ctx = window.AudioContext || window.webkitAudioContext; if(Ctx) pomoCtx = new Ctx(); }catch(e){}
+    }
+    if(pomoCtx && pomoCtx.state === "suspended"){ pomoCtx.resume().catch(function(){}); }
+    return pomoCtx;
+  }
+  function beep(){
+    var ctx = pomoCtx;
+    if(!ctx) return;
+    try{
+      var o = ctx.createOscillator(), g = ctx.createGain();
+      o.type = "sine"; o.frequency.value = 880;
+      g.gain.setValueAtTime(0.0001, ctx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.22, ctx.currentTime + 0.01);
+      g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.5);
+      o.connect(g); g.connect(ctx.destination);
+      o.start(); o.stop(ctx.currentTime + 0.52);
+    }catch(e){}
+  }
+  function syncPomoUI(){
+    var box = $("view-pomo").querySelector(".pomo");
+    box.className = "pomo" + (pomo.mode === "break" ? " mode-break" : (pomo.mode === "long" ? " mode-long" : ""));
+    $("pomoMode").textContent = pomoLabel(pomo.mode);
+    $("pomoClock").textContent = fmtMMSS(pomo.remaining);
+    $("pomoRound").textContent = lang === "en"
+      ? "Round " + pomo.round + " of " + pomoSettings.rounds
+      : "الجولة " + pomo.round + " من " + pomoSettings.rounds;
+    $("pomoToggle").textContent = pomo.running ? tr("pause") : tr("start");
+  }
+  function pomoAdvance(){
+    if(pomo.mode === "work"){
+      if(pomo.round >= pomoSettings.rounds){ pomo.mode = "long"; }
+      else { pomo.mode = "break"; }
+    } else {
+      if(pomo.mode === "long") pomo.round = 1; else pomo.round += 1;
+      pomo.mode = "work";
+    }
+    pomo.remaining = pomoDurationSec(pomo.mode);
+  }
+  function pomoTick(){
+    if(!pomo.running) return;
+    pomo.remaining -= 1;
+    if(pomo.remaining <= 0){
+      if(pomo.mode === "work") logStudySession(pomoSettings.work);
+      beep();
+      toast(lang === "en"
+        ? pomoLabel(pomo.mode) + " finished — time for " + (pomo.mode === "work" ? "a break" : "study")
+        : pomoLabel(pomo.mode) + " خلصت — يلا " + (pomo.mode === "work" ? "استراحة" : "مذاكرة"));
+      pomoAdvance();
+    }
+    syncPomoUI();
+  }
+  function pomoStart(){
+    if(pomo.running) return;
+    ensureAudioCtx();
+    pomo.running = true;
+    pomo.timerId = setInterval(pomoTick, 1000);
+    syncPomoUI();
+  }
+  function pomoPause(){
+    pomo.running = false;
+    if(pomo.timerId) clearInterval(pomo.timerId);
+    pomo.timerId = null;
+    syncPomoUI();
+  }
+  function pomoReset(){
+    pomoPause();
+    pomo.mode = "work"; pomo.round = 1; pomo.remaining = pomoDurationSec("work");
+    syncPomoUI();
+  }
+  function pomoSkip(){
+    pomoAdvance();
+    syncPomoUI();
+  }
+  function fillPomoSettingsForm(){
+    $("p_work").value = pomoSettings.work;
+    $("p_break").value = pomoSettings.brk;
+    $("p_long").value = pomoSettings.long;
+    $("p_rounds").value = pomoSettings.rounds;
+  }
+  function applyPomoSettings(){
+    var w = Math.min(180, Math.max(1, +$("p_work").value || pomoSettings.work));
+    var b = Math.min(60, Math.max(1, +$("p_break").value || pomoSettings.brk));
+    var l = Math.min(120, Math.max(1, +$("p_long").value || pomoSettings.long));
+    var r = Math.min(12, Math.max(1, +$("p_rounds").value || pomoSettings.rounds));
+    pomoSettings = { work:w, brk:b, long:l, rounds:r };
+    try{ localStorage.setItem(LS_POMO, JSON.stringify(pomoSettings)); }catch(e){}
+    pomo.remaining = pomoDurationSec(pomo.mode);
+    fillPomoSettingsForm();
+    syncPomoUI();
+    toast("اتحفظت إعدادات المؤقّت.");
+  }
+  fillPomoSettingsForm();
+  syncPomoUI();
+  try{ lang = localStorage.getItem(LS_LANG) === "en" ? "en" : "ar"; }catch(e){ lang = "ar"; }
+  applyLanguage();
+  $("langBtn").addEventListener("click", function(){
+    lang = lang === "ar" ? "en" : "ar";
+    try{ localStorage.setItem(LS_LANG, lang); }catch(e){}
+    applyLanguage();
+    render();
+  });
+  $("pomoToggle").addEventListener("click", function(){ pomo.running ? pomoPause() : pomoStart(); });
+  $("pomoSkip").addEventListener("click", pomoSkip);
+  $("pomoReset").addEventListener("click", pomoReset);
+  $("p_apply").addEventListener("click", applyPomoSettings);
+
+  /* ---------------- boot ---------------- */
+  render();
+  (function boot(){
+    var p = null;
+    try{
+      if(window.claude && typeof window.claude.use === "function"){ p = window.claude.use("db"); }
+    }catch(e){ p = null; }
+    if(!p){ startLocal(); return; }
+    p.then(function(cap){
+      if(cap){
+        db = cap; mode = "db";
+        subscribe("subjects"); subscribe("entries"); subscribe("homework"); subscribe("links"); subscribe("notes"); subscribe("exams");
+      } else { startLocal(); }
+    }).catch(function(){ startLocal(); });
+  })();
+
+  function startLocal(){
+    mode = "local";
+    loadLocal();
+    notice("الحفظ دلوقتي على الجهاز ده بس. لو فتحت الصفحة من موبايل تاني مش هتلاقي نفس البيانات.");
+    render();
+  }
+})();
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
+}
+</script>
+</body>
+</html>
